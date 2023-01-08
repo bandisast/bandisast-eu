@@ -1,0 +1,18 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+	<channel>
+		<title>bandisast.eu</title>
+		<description>
+			bandisast's RSS feed
+		</description>
+		<language>en-us</language>
+		<link>https://bandisast.eu/rss.xml</link>
+		<atom:link href="https://bandisast.eu/rss.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<title>bandisast.eu</title>
+			<url>https://bandisast.eu/favicon.png</url>
+			<link>https://bandisast.eu/rss.xml</link>
+		</image>
+
+	</channel>
+</rss>
+
