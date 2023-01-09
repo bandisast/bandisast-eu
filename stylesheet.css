@@ -147,6 +147,12 @@ img {
 	body {
 		background-image: url('files/images/bg2.webp');
 	}
+
+	.intro-text img
+	{
+		width: 60%;
+		height: 60%;
+	}
 }
 
 @media screen and (orientation: landscape) {
@@ -156,6 +162,12 @@ img {
 
 	.cv-text {
 		align-self: flex-start;
+	}
+
+	.intro-text img
+	{
+		width: 30%;
+		height: 30%;
 	}
 
 	.cv-image {
