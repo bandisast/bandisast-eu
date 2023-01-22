@@ -153,6 +153,29 @@ img {
 		width: 60%;
 		height: 60%;
 	}
+
+	.cv-image
+	{
+		width: 50%;
+		height: 50%;
+	}
+
+	.cv-text::before
+	{
+		content: "\a";
+		white-space: pre;
+	}
+
+	.cv-text
+	{
+		display: inline-block;
+		text-align: left;
+	}
+
+	.cv-paragraph
+	{
+		text-align: center;
+	}
 }
 
 @media screen and (orientation: landscape) {
