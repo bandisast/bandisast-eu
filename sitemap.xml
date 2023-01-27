@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+	<loc>https://bandisast.eu/</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/index.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/index.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/about.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/about.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/about.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/about.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/cv.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/cv.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/cv.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/cv.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/projects.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/projects.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/projects.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/projects.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/posts.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/posts.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/posts.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/posts.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/links.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>1.0</priority>
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/links.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/links.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/links.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/gr/index.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/index.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/index.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/pl/index.html</loc>
+	<lastmod>2023-01-25T12:34:09+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/index.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/index.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/gr/about.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/about.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/about.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/about.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/gr/cv.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/cv.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/cv.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/cv.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/gr/projects.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/projects.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/projects.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/projects.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/gr/posts.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/posts.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/posts.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/posts.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/gr/links.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/index.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/links.html" />
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/links.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/pl/about.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/about.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/about.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/about.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/pl/cv.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/cv.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/cv.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/cv.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/pl/projects.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/projects.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/projects.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/projects.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/pl/posts.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/posts.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/posts.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/posts.html" />
+</url>
+<url>
+	<loc>https://bandisast.eu/pl/links.html</loc>
+	<lastmod>2023-01-25T12:34:13+01:00</lastmod>
+	<priority>0.8</priority>
+	<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/links.html" />
+	<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/links.html" />
+	<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/gr/links.html" />
+</url>
+</urlset>

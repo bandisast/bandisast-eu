@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: /autom-ihu.html
+Disallow: /pl/autom-ihu.html
+Disallow: /gr/autom-ihu.html
+Disallow: /rss.xml
+Disallow: /not_found.html
+
+Sitemap: https://bandisast.eu/sitemap.xml
