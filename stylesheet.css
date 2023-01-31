@@ -3,6 +3,7 @@
 	font-family: 'DM Mono';
 	font-style: normal;
 	font-weight: 400;
+	font-display: swap;
 	src: url('/fonts/dm-mono-v10-latin-ext_latin-regular.eot');
 	/* IE9 Compat Modes */
 	src: local(''),
@@ -16,8 +17,8 @@
 		/* Safari, Android, iOS */
 		url('fonts/dm-mono-v10-latin-ext_latin-regular.svg#DMMono') format('svg');
 	/* Legacy iOS */
+	unicode-range: U+0021-007E, U+00A1-00B4, U+00B6-011B, U+011E-0123, U+0128-0131, U+0136-0137, U+0139-0148, U+014C-015B, U+015E-0165, U+0168-017E, U+018F, U+0192, U+01FC-01FD, U+0128-012B, U+0259, U+02DA, U+02DC, U+1E80-1E85, U+1EF2-1EF3, U+1EF8-1EF9, U+2013-2014, U+2018-201A, U+201C-201E, U+2020, U+2022, U+2026, U+2074, U+20AC, U+20BD, U+2113, U+2122, U+2212, U+2215;
 }
-
 
 body {
 	background-repeat: repeat;
@@ -25,7 +26,7 @@ body {
 	background-attachment: fixed;
 	background-color: #313131;
 	image-rendering: high-quality;
-	font-family: 'DM Mono', monospace;
+	font-family: 'DM Mono', 'Consolas', monospace;
 	font-size: 1.15em;
 	line-height: 1.4;
 	color: #e1e1e1;
