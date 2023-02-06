@@ -22,7 +22,7 @@
 
 /* ubuntu-regular - latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-	font-display: swap; 
+	font-display: swap;
 	font-family: 'Ubuntu';
 	font-style: normal;
 	font-weight: 400;
@@ -46,9 +46,10 @@ label {
   }
   
 input:checked ~ div {
-	font-family: 'OpenDyslexic', monospace;
+	font-family: 'Ubuntu', sans-serif;
 	background: rgba(15, 15, 15, 0.8);
-	font-size: 1.25em;
+	font-size: 1.4em;
+	line-height: 1.6;
   }
 
 body {
