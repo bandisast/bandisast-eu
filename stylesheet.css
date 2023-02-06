@@ -20,22 +20,18 @@
 	unicode-range: U+0021-007E, U+00A1-00B4, U+00B6-011B, U+011E-0123, U+0128-0131, U+0136-0137, U+0139-0148, U+014C-015B, U+015E-0165, U+0168-017E, U+018F, U+0192, U+01FC-01FD, U+0128-012B, U+0259, U+02DA, U+02DC, U+1E80-1E85, U+1EF2-1EF3, U+1EF8-1EF9, U+2013-2014, U+2018-201A, U+201C-201E, U+2020, U+2022, U+2026, U+2074, U+20AC, U+20BD, U+2113, U+2122, U+2212, U+2215;
 }
 
+/* ubuntu-regular - latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
 @font-face {
-	font-family: 'OpenDyslexic';
+	font-display: swap; 
+	font-family: 'Ubuntu';
 	font-style: normal;
-	font-weight: normal;
-	font-display: swap;
-	src: url('/fonts/OpenDyslexic-Regular.eot');
-	/* IE9 Compat Modes */
-	src: local(''),
-		url('fonts/OpenDyslexic-Regular.eot') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('fonts/OpenDyslexic-Regular.woff2') format('woff2'),
-		/* Super Modern Browsers */
-		url('fonts/OpenDyslexic-Regular.woff') format('woff'),
-		/* Modern Browsers */
-		url('fonts/OpenDyslexic-Regular.otf') format("opentype");
-		/* Safari, Android, iOS */
+	font-weight: 400;
+	src: url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
+	src: url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+		 url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		 url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
 }
 
 input {
