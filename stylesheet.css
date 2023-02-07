@@ -203,6 +203,14 @@ img {
 
 /* Phones / Tablets */
 @media screen and (orientation: portrait) {
+	.input {
+		display: none; /* Hide the checkbox completely on mobile */
+	}
+
+	span.toggler {
+		display: none; /* Hide the secret label completely on mobile */
+	}
+
 	body {
 		background-image: url('files/images/bg2.webp');
 	}
