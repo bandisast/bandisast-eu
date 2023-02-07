@@ -1,3 +1,6 @@
+/* ==========================================================================
+   Base styles: Font Definitions
+   ========================================================================== */
 /* dm-mono-regular - latin-ext_latin */
 @font-face {
 	font-family: 'DM Mono';
@@ -21,6 +24,7 @@
 }
 
 /* ubuntu-regular - latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
+/* Accessibility Mode Font */
 @font-face {
 	font-display: swap;
 	font-family: 'Ubuntu';
@@ -34,8 +38,11 @@
 		 url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.svg#Ubuntu') format('svg'); /* Legacy iOS */
 }
 
+/* ==========================================================================
+   Base styles: Accessibility Mode Toggler
+   ========================================================================== */
 input {
-	opacity: 0;
+	opacity: 0; /* Hide the checkbox */
 	position: relative;
   }
   
@@ -46,25 +53,28 @@ label {
   }
 
 input[type=checkbox]:focus {
-	opacity: 0.1;
+	opacity: 0.1; /* Show the checkbox when when focused */
  }
 
  input:focus-visible + span {
-	visibility: visible;
+	visibility: visible; /* Show a helpful label when focused because from a keyboard action */
   }
 
 input:checked ~ div {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Ubuntu', sans-serif; /* Accessibility mode main settings */
 	background: rgba(15, 15, 15, 0.8);
 	font-size: 1.4em;
 	line-height: 1.6;
   }
 
 span.toggler {
-	visibility: hidden;
+	visibility: hidden; /* Hide the helpful label for non-keyboard users */
 	text-align: center;
 }
 
+/* ==========================================================================
+   Base styles: General
+   ========================================================================== */
 body {
 	background-repeat: repeat;
 	background-size: cover;
@@ -187,6 +197,11 @@ img {
 	margin-left: 0.6em;
 }
 
+/* ==========================================================================
+   Base styles: Media Queries (Responsive Design)
+   ========================================================================== */
+
+/* Phones / Tablets */
 @media screen and (orientation: portrait) {
 	body {
 		background-image: url('files/images/bg2.webp');
@@ -222,6 +237,7 @@ img {
 	}
 }
 
+/* Desktops / Laptops */
 @media screen and (orientation: landscape) {
 	body {
 		background-image: url('files/images/bg.webp');
