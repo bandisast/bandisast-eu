@@ -4,5 +4,8 @@ Disallow: /pl/autom-ihu.html
 Disallow: /gr/autom-ihu.html
 Disallow: /rss.xml
 Disallow: /not_found.html
+Disallow: /TODO!
+Disallow: /gr/TODO!
+Disallow: /pl/TODO!
 
-Sitemap: https://bandisast.eu/sitemap.xml
+Sitemap: https://bandisast.eu/sitemap3.xml
