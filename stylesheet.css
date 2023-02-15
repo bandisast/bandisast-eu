@@ -197,6 +197,10 @@ img {
 	margin-left: 0.6em;
 }
 
+.unitable
+{
+	overflow-x: auto;
+}
 /* Tables */
 
 table, th, td {
