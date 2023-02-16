@@ -197,6 +197,28 @@ img {
 	margin-left: 0.6em;
 }
 
+.unitable
+{
+	overflow-x: auto;
+}
+/* Tables */
+
+table, th, td {
+	border: 1px solid;
+}
+
+
+th, td {
+	padding: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
 /* ==========================================================================
    Base styles: Media Queries (Responsive Design)
    ========================================================================== */
