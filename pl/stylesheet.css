@@ -76,10 +76,6 @@ span.toggler {
    Base styles: General
    ========================================================================== */
 body {
-	background-repeat: repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-color: #313131;
 	image-rendering: high-quality;
 	font-family: 'DM Mono', 'Consolas', monospace;
 	font-size: 1.15em;
@@ -234,8 +230,13 @@ table {
 		display: none; /* Hide the secret label completely on mobile */
 	}
 
-	body {
+	:root {
 		background-image: url('../files/images/bg2.webp');
+		background-repeat: repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-color: #313131;
+		image-rendering: high-quality;
 	}
 
 	.intro-text img
@@ -270,8 +271,13 @@ table {
 
 /* Desktops / Laptops */
 @media screen and (orientation: landscape) {
-	body {
+	:root {
 		background-image: url('../files/images/bg.webp');
+		background-repeat: repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-color: #313131;
+		image-rendering: high-quality;
 	}
 
 	.cv-text {
