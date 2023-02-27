@@ -237,6 +237,10 @@ table {
 		background-image: url('files/images/bg2.webp');
 	}
 
+	.menu {
+		line-height: 2.4;
+	}
+
 	.intro-text img
 	{
 		width: 60%;
