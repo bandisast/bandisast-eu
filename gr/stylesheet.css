@@ -82,7 +82,7 @@ body {
 	background-color: #313131;
 	image-rendering: high-quality;
 	font-family: 'DM Mono', 'Consolas', monospace;
-	font-size: 1.15em;
+	font-size: 1.17em;
 	line-height: 1.4;
 	color: #e1e1e1;
 	text-shadow: 1px 1px 3px #444;
@@ -239,6 +239,10 @@ table {
 
 	.menu {
 		line-height: 2.4;
+	}
+
+	.findme {
+		line-height: 2;
 	}
 
 	.intro-text img

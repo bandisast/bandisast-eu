@@ -241,6 +241,10 @@ table {
 		line-height: 2.4;
 	}
 	
+	.findme {
+		line-height: 2;
+	}
+	
 	.intro-text img
 	{
 		width: 60%;
