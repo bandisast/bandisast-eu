@@ -98,6 +98,11 @@ h6 {
 	text-align: center;
 }
 
+.footer {
+	text-align: center;
+	font-size: 0.7em;
+}
+
 /* Links */
 a {
 	color: #ffffff;
