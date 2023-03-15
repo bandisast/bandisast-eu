@@ -10,4 +10,4 @@ Disallow: /TODO!
 Disallow: /pl/TODO!
 Disallow: /gr/*
 
-Sitemap: https://bandisast.eu/sitemap3.xml
+Sitemap: https://bandisast.eu/sitemap4.xml
