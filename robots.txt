@@ -3,13 +3,11 @@ Disallow: /autom-ihu.html
 Disallow: /autom-ihu
 Disallow: /pl/autom-ihu.html
 Disallow: /pl/autom-ihu
-Disallow: /gr/autom-ihu.html
-Disallow: /gr/autom-ihu
 Disallow: /rss.xml
 Disallow: /not_found.html
 Disallow: /not_found
 Disallow: /TODO!
-Disallow: /gr/TODO!
 Disallow: /pl/TODO!
+Disallow: /gr/*
 
 Sitemap: https://bandisast.eu/sitemap3.xml
