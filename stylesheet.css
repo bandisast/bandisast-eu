@@ -238,6 +238,13 @@ table {
 	width: 70%;
 }
 
+.announcement {
+	text-align: center;
+	background-color: orange;
+	color: black
+}
+
+
 /* ==========================================================================
    Base styles: Media Queries (Responsive Design)
    ========================================================================== */
