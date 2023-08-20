@@ -90,7 +90,7 @@ body {
 	background-repeat: repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-color: #313131;
+	background-color: #01050d;
 	image-rendering: high-quality;
 	font-family: 'DM Mono', 'Consolas', monospace;
 	font-size: 1.15em;
@@ -244,13 +244,21 @@ table {
 	color: black
 }
 
-
 /* ==========================================================================
    Base styles: Media Queries (Responsive Design)
    ========================================================================== */
 
 /* Phones / Tablets */
 @media screen and (orientation: portrait) {
+
+	:root {
+		background-image: url('files/images/bg2.webp');
+		background-repeat: repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-color: #01050d;
+	}
+
 	.input {
 		display: none;
 		/* Hide the checkbox completely on mobile */
@@ -307,7 +315,7 @@ table {
 		background-repeat: repeat;
 		background-size: cover;
 		background-attachment: fixed;
-		background-color: #313131;
+		background-color: #01050d;
 	}
 
 	body {
