@@ -29,34 +29,29 @@
 </head>
 
 <body>
-	<div id="content" class="content">
-		<h1><label for="checkbox">Aster's space</label></h1>
-		<input type="checkbox" id="checkbox" />
-		<span class="toggler">
-			<label for="checkbox">Clicking your spacebar now will toggle the website's accessibility mode!</label>
-		</span>
-		<!-- Pun absolutely intended! -->
-		<div class="menu">
-			<a href="./">Home</a>
-			<a href="about">About</a>
-			<a href="cv">Curriculum Vitae</a>
-			<a href="projects">Projects</a>
-			<a href="posts">Posts</a>
-			<a href="el/">Ελληνικά</a>
-			<a href="pl/">Polski</a>
-		</div>
-		<br />
-		<div class="bg">
+	<div class="header">
+        <h1>>Aster's space</h1>
+        <div class="menu">
+            <a href="./">Home</a>
+            <a href="about">About</a>
+            <a href="cv">Curriculum Vitae</a>
+            <a href="projects">Projects</a>
+            <a href="posts">Posts</a>
+            <a href="el/">Ελληνικά</a>
+            <a href="pl/">Polski</a>
+        </div>
+	</div>
+		<div class="main">
 
 			<noscript>
 				<p class="center">JavaScript is disabled. Well done!</p>
 			</noscript>
 
-			<div id="outline-container-org21290d0" class="outline-2">
-				<h2 id="org21290d0">Homepage</h2>
-				<div class="intro-text" id="text-org21290d0">
-					<img src="files/images/me2.svg" alt="A CAD drawing of myself" />
-
+				<h2>Homepage</h2>
+				<div class="base-flexbox">
+					<img class="base-flexbox-image" src="files/images/me2.svg" alt="A CAD drawing of myself" />
+					
+					<div class="base-flexbox-text">
 					<p>
 						Hello, I'm Aster! I'm a graduate of the department of Automation Engineering of the
 						International Hellenic University (formerly the "Alexander TEI of Thessaloniki"). I specialise
@@ -69,13 +64,10 @@
 							Physics Olympiad</a>, and the <a href="http://microengineering.iem.ihu.gr/">International
 							Workshop on Microsystems</a>.
 					</p>
-
+					</div>
+					</div>
 					<br />
-					<br />
-
-					<p class="center">Clicking on the "Aster's Space" header at the top of any page will toggle the
-						website's accessibility mode on/off!</p>
-
+					Insert my ultra high quality content here (todo)
 					<br />
 					<div class="findme">
 						<p class="center">
@@ -91,12 +83,9 @@
 
 					<hr />
 
-				</div>
-			</div>
 
-			<div id="outline-container-org600daff" class="outline-2">
-				<h2 id="org600daff">Mirrors</h2>
-				<div class="outline-text-2" id="text-org600daff">
+				<h2>Mirrors</h2>
+				<div class="mirrors">
 					<p class="center">
 						<a href="https://bandisast.eu" class="center">bandisast.eu</a> - <a
 							href="https://bandisast.github.io/bandisast-eu/">GitHub Pages</a>
@@ -104,7 +93,6 @@
 
 					<br />
 				</div>
-			</div>
 
 			<!-- <a href="https://creativecommons.org/licenses/by/4.0"><img src="files/images/cc-by.png" alt="CC-BY"
 					height="31" width="88" /></a> -->
@@ -115,9 +103,8 @@
 			<a href="https://validator.w3.org/feed/check.cgi?url=bandisast.eu%2Frss.xml"><img
 					src="files/images/valid-rss.png" alt="Valid RSS" height="31" width="88" /></a>
 			<br />
-			<p class="footer">Original template by getimiskon. Modified by bandisast.</p>
+			<p class="footer">Made with <a href="https://love.holllo.cc/">Love</a>, by bandisast</p>
 		</div>
-	</div>
 </body>
 
 </html>
