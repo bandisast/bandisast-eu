@@ -1,347 +1,242 @@
 /* ==========================================================================
-   Base styles: Font Definitions
+   Base styles: Definitions, Browser Reset
    ========================================================================== */
-/* dm-mono-regular - latin-ext_latin */
-@font-face {
-	font-family: 'DM Mono';
-	font-style: normal;
-	font-weight: 400;
-	font-display: swap;
-	src: url('fonts/dm-mono-v10-latin-ext_latin-regular.eot');
-	/* IE9 Compat Modes */
-	src: local(''),
-		url('fonts/dm-mono-v10-latin-ext_latin-regular.eot?#iefix') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('fonts/dm-mono-v10-latin-ext_latin-regular.woff2') format('woff2'),
-		/* Super Modern Browsers */
-		url('fonts/dm-mono-v10-latin-ext_latin-regular.woff') format('woff'),
-		/* Modern Browsers */
-		url('fonts/dm-mono-v10-latin-ext_latin-regular.ttf') format('truetype'),
-		/* Safari, Android, iOS */
-		url('fonts/dm-mono-v10-latin-ext_latin-regular.svg#DMMono') format('svg');
-	/* Legacy iOS */
-	unicode-range: U+0021-007E, U+00A1-00B4, U+00B6-011B, U+011E-0123, U+0128-0131, U+0136-0137, U+0139-0148, U+014C-015B, U+015E-0165, U+0168-017E, U+018F, U+0192, U+01FC-01FD, U+0128-012B, U+0259, U+02DA, U+02DC, U+1E80-1E85, U+1EF2-1EF3, U+1EF8-1EF9, U+2013-2014, U+2018-201A, U+201C-201E, U+2020, U+2022, U+2026, U+2074, U+20AC, U+20BD, U+2113, U+2122, U+2212, U+2215;
+:root {
+	/* Colour definitions; courtesy of https://love.holllo.cc/ */ 
+	--foreground-primary: #F2EFFF;
+	--foreground-secondary: #E6DEFF;
+	--background-primary: #1F1731;
+	--background-secondary: #2A2041;
+	--accent-red: #F99FB1;
+	--accent-orange: #FAA56C;
+	--accent-yellow: #D2B83A;
+	--accent-lime: #96C839;
+	--accent-green: #3BD18A;
+	--accent-minty: #3ECDBF;
+	--accent-seablue: #41C8E5;
+	--accent-blurple: #98B9F8;
+	--accent-lavender: #D5A6F8;
+	--accent-pink: #F99ADD;
+	--gray-1: #E2E2E2;
+	--gray-2: #C6C6C6;
+	--gray-3: #ABABAB;
+
+	/* Reset some default styles */
+	body,
+	h1,
+	h2,
+	h3,
+	p,
+	ul,
+	ol,
+	li,
+	figure,
+	figcaption,
+	blockquote,
+	dl,
+	dd,
+	table,
+	th,
+	td {
+		margin: 0;
+		padding: 0;
+	}
+
+	background-color: var(--background-secondary);
 }
 
-/* ubuntu-regular - latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic */
-/* Accessibility Mode Font */
-@font-face {
-	font-display: swap;
-	font-family: 'Ubuntu';
-	font-style: normal;
-	font-weight: 400;
-	src: url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.eot');
-	/* IE9 Compat Modes */
-	src: url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular?#iefix') format('embedded-opentype'),
-		/* IE6-IE8 */
-		url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff2') format('woff2'),
-		/* Super Modern Browsers */
-		url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.woff') format('woff'),
-		/* Modern Browsers */
-		url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.ttf') format('truetype'),
-		/* Safari, Android, iOS */
-		url('fonts/ubuntu-v20-latin-ext_latin_greek-ext_greek_cyrillic-ext_cyrillic-regular.svg#Ubuntu') format('svg');
-	/* Legacy iOS */
+html {
+    box-sizing: border-box;
 }
 
 /* ==========================================================================
-   Base styles: Accessibility Mode Toggler
+   Base styles: Header (h1, menu)
    ========================================================================== */
-input {
-	opacity: 0;
-	/* Hide the checkbox */
-	position: relative;
+.header {
+    background-color: var(--background-primary);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
 }
 
-label {
-	color: #fff;
-	cursor: pointer;
-	text-align: center;
+h1 {
+    color: var(--foreground-primary);
+    margin: 0;
 }
 
-input[type=checkbox]:focus {
-	opacity: 0.1;
-	/* Show the checkbox when when focused */
+.menu {
+    display: flex;
+    flex-direction: column;
 }
 
-input:focus-visible+span {
-	visibility: visible;
-	/* Show a helpful label when focused because from a keyboard action */
-}
-
-input:checked~div {
-	font-family: 'Ubuntu', sans-serif;
-	/* Accessibility mode main settings */
-	background: rgba(15, 15, 15, 0.8);
-	font-size: 1.4em;
-	line-height: 1.6;
-}
-
-span.toggler {
-	visibility: hidden;
-	/* Hide the helpful label for non-keyboard users */
-	text-align: center;
+.menu a {
+    text-decoration: none;
+    color: var(--foreground-primary);
+    margin-top: 10px;
+	margin-bottom: 10px;
+    padding: 0.65em;
 }
 
 /* ==========================================================================
-   Base styles: General
+   Base styles: Main Content
    ========================================================================== */
-body {
-	background-repeat: repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-color: #01050d;
-	image-rendering: high-quality;
-	font-family: 'DM Mono', 'Consolas', monospace;
-	font-size: 1.15em;
-	line-height: 1.4;
-	color: #e1e1e1;
-	text-shadow: 1px 1px 3px #444;
+.main {
+    background-color: var(--background-secondary);
+    color: var(--foreground-secondary);
+	border: 10px;
+	border-color: var(--foreground-secondary);
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
 }
 
-/* Headers */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	text-align: center;
-}
-
-.footer {
-	text-align: center;
-	font-size: 0.7em;
-}
-
-/* Links */
-a {
-	color: #ffffff;
-	word-wrap: break-word;
-}
-
-a:hover {
-	color: #bbbbbb;
-}
-
-/* Paragraphs */
-p {
-	width: 74%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: left;
-}
-
-/* Lists */
-ol,
-ul,
-li {
-	text-align: left;
-	width: 84%;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0%;
-}
-
-/* Code */
-code {
-	font-family: monospace;
-	background-color: rgba(50, 50, 50, 0.5);
-	padding: 1px;
-}
-
-/* Quote blocks */
-blockquote {
-	text-align: left;
-	width: 70%;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 0.65em;
-	background-color: rgba(50, 50, 50, 0.3);
-	border: 1px solid #6e6e6e;
-}
-
-hr {
-	width: 95%;
-}
-
-/* Images */
-img {
-	max-width: 74%;
-	text-align: center;
-}
-
-/* Custom Classes */
-
-/* Webring links */
-.webring {
-	text-align: center;
-	/*font-size: 1.25em;*/
-}
-
-/* Center-aligned text */
 .center {
 	text-align: center;
 }
 
-/* Background and Menu */
-.bg,
-.menu {
-	margin-left: 2%;
-	margin-right: 2%;
-	padding: 0.65em;
-	background: rgba(15, 15, 15, 0.5);
+.base-flexbox {
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 30px;
+	border: 1px;
+	border-style: hidden hidden solid;
+	border-color: var(--foreground-secondary);
+  }
+  
+.base-flexbox-image {
+	max-width: 50%;
+	height: auto;
+	align-self: center;
+  }
+  
+.base-flexbox-text {
 	text-align: center;
-	border: 1px solid #6e6e6e;
-	backdrop-filter: blur(2px);
-}
-
-/* Code block */
-.codeblock {
-	margin-left: 2%;
-	margin-right: 2%;
-	padding: 0.65em;
-	background: rgba(50, 50, 50, 0.3);
-	border: 1px solid #6e6e6e;
-	text-align: left;
-	overflow: auto;
-}
-
-/* Menu links */
-.menu a {
-	margin-right: 0.6em;
-	margin-left: 0.6em;
-}
-
-.unitable {
-	overflow-x: auto;
-}
-
-/* Tables */
-
-table,
-th,
-td {
-	border: 1px solid;
-}
+  }
 
 
-th,
-td {
-	padding: 10px;
-}
 
-table {
-	border-collapse: collapse;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-}
 
-.announcement {
-	text-align: center;
-	background-color: orange;
-	color: black
-}
+
+
+
+
+
+
 
 /* ==========================================================================
-   Base styles: Media Queries (Responsive Design)
+   Alternate styles: Desktops, Laptops, Tablets
    ========================================================================== */
+@media screen and (orientation: landscape) and (max-width: 1999px) {
+	/* ==========================================================================
+       Alternate styles: Header (h1, menu)
+   	   ========================================================================== */
+    h1 {
+        text-align: left; 
+    }
 
-/* Phones / Tablets */
+    .menu {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+
+	/* ==========================================================================
+       Alternate styles: Main Content
+   	   ========================================================================== */
+		  .base-flexbox {
+			flex-direction: row;
+			align-items: center;
+		  }
+		
+		  .base-flexbox-image {
+			max-width: 49%;
+		  }
+		
+		  .base-flexbox-text {
+			padding-left: 1%;
+			text-align: left; /* Align text to the left in landscape mode */
+		  }
+		}
+
+/* ==========================================================================
+   Alternate styles: 2K, 4K, Ultrawide (Landscape)
+   ========================================================================== */
+   @media screen and (orientation: landscape) and (min-width: 2000px) {
+	/* ==========================================================================
+       Alternate styles: Header (h1, menu)
+   	   ========================================================================== */
+    h1 {
+        text-align: left; 
+    }
+
+    .menu {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-start;
+        margin-top: 0;
+    }
+
+	/* ==========================================================================
+       Alternate styles: Main Content
+   	   ========================================================================== */
+		  .base-flexbox {
+			flex-direction: row;
+			align-items: center;
+		  }
+		
+		  .base-flexbox-image {
+			max-width: 35%;
+		  }
+		
+		  .base-flexbox-text {
+			padding-left: 1%;
+			text-align: left; /* Align text to the left in landscape mode */
+		  }
+		}
+
+
+/* ==========================================================================
+   Alternate styles: Phones, Tablets
+   ========================================================================== */
 @media screen and (orientation: portrait) {
 
-	:root {
-		background-image: url('files/images/bg2.webp');
-		background-repeat: repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		background-color: #01050d;
-	}
+	/* ==========================================================================
+       Alternate styles: Header (h1, menu)
+   	   ========================================================================== */
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
 
-	.input {
-		display: none;
-		/* Hide the checkbox completely on mobile */
-	}
+    h1 {
+        text-align: center;
+    }
 
-	span.toggler {
-		display: none;
-		/* Hide the secret label completely on mobile */
-	}
+    .menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+        justify-content: center;
+        margin-top: 10px;
+    }
 
-	body {
-		background-image: url('files/images/bg2.webp');
-	}
-
-	.menu {
-		line-height: 2.4;
-	}
-
-	.findme {
-		line-height: 2;
-	}
-
-	.intro-text img {
-		width: 60%;
-		height: 60%;
-	}
-
-	.cv-image {
-		width: 60%;
-		height: 60%;
-	}
-
-	.cv-text::before {
-		content: "\a";
-		white-space: pre;
-	}
-
-	.cv-text {
-		display: inline-block;
-		text-align: left;
-	}
-
-	.cv-paragraph {
-		text-align: center;
-	}
+    .menu a {
+        margin: 5px; 
+    }
+	/* ==========================================================================
+       Alternate styles: Main Content
+   	   ========================================================================== */
+		  .base-flexbox {
+			align-items: center; /* Horizontally align to the center */
+		  }
+		
+		  .base-flexbox-image {
+			max-width: 100%; /* Full width in portrait mode */
+		  }
 }
 
-/* Desktops / Laptops */
-@media screen and (orientation: landscape) {
-
-	/* Prevent Dark Mode plugins from making the website's background a solid colour */
-	:root {
-		background-image: url('files/images/bg.webp');
-		background-repeat: repeat;
-		background-size: cover;
-		background-attachment: fixed;
-		background-color: #01050d;
-	}
-
-	body {
-		background-image: url('files/images/bg.webp');
-	}
-
-	.cv-text {
-		align-self: flex-start;
-	}
-
-	.intro-text img {
-		width: 30%;
-		height: 30%;
-	}
-
-	.cv-image {
-		width: 20%;
-		height: 20%;
-		margin-right: 30px;
-		flex-shrink: 0;
-		flex: none;
-		align-self: center;
-	}
-
-	.cv-paragraph {
-		display: flex;
-	}
-
-}
