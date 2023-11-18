@@ -45,10 +45,6 @@
 	background-color: var(--background-secondary);
 }
 
-html {
-    box-sizing: border-box;
-}
-
 /* ==========================================================================
    Base styles: Header (h1, menu)
    ========================================================================== */
@@ -187,6 +183,7 @@ h1 {
 		  .base-flexbox {
 			flex-direction: row;
 			align-items: center;
+			width: 65%;
 		  }
 		
 		  .base-flexbox-image {
@@ -198,7 +195,10 @@ h1 {
 			text-align: left; /* Align text to the left in landscape mode */
 		  }
 		}
-
+		.main {
+			margin-left: 10%;
+			margin-right: 10%;
+		}
 
 /* ==========================================================================
    Alternate styles: Phones, Tablets
