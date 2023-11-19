@@ -119,6 +119,40 @@ h1 {
 	text-align: center;
   }
 
+  .cv-container {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  /* Styles for cv-left-column */
+  .left-column {
+	flex: 1;
+	flex-basis: 100%; 
+	box-sizing: border-box;
+	padding-right: 50px;
+	padding-left: 0px;
+	/* Adjust padding as needed */
+  }
+  
+  /* Styles for cv-right-column */
+  .right-column {
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 100%;
+	padding-left: 50px;
+	padding-right: 0px;
+	 /* Adjust padding as needed */
+  }
+
+  .base-flexbox.cv {
+	border: 0;
+	
+  }
+
+  .base-flexbox-image.cv {
+	padding-right: 2%;
+  }
+
   /* ==========================================================================
    Base styles: Tables
    ========================================================================== */
@@ -146,9 +180,6 @@ h1 {
 	margin-right: auto;
 	width: 70%;
 }
-
-
-
 
 
 
@@ -189,6 +220,18 @@ h1 {
 			padding-left: 1%;
 			text-align: left; /* Align text to the left in landscape mode */
 		  }
+
+		  .left-column {
+			flex-basis: 60%; /* Adjust the width of the left column as needed */
+		  }
+		
+		  .right-column {
+			flex-basis: 40%; /* Adjust the width of the right column as needed */
+		  }
+		  
+		  .base-flexbox.cv {
+			width: 100%;
+		  }
 		}
 
 /* ==========================================================================
@@ -226,11 +269,26 @@ h1 {
 			padding-left: 1%;
 			text-align: left; /* Align text to the left in landscape mode */
 		  }
-		}
+		
 		.main {
 			margin-left: 10%;
 			margin-right: 10%;
 		}
+		.left-column {
+			flex-basis: 60%; /* Adjust the width of the left column as needed */
+		  }
+		
+		  .right-column {
+			flex-basis: 40%; /* Adjust the width of the right column as needed */
+		  }
+
+		  .base-flexbox.cv {
+			width: 100%;
+		  }
+
+	}
+
+	
 
 /* ==========================================================================
    Alternate styles: Phones, Tablets
@@ -270,11 +328,30 @@ h1 {
        Alternate styles: Main Content
    	   ========================================================================== */
 		  .base-flexbox {
-			align-items: center; /* Horizontally align to the center */
+			align-items: center;
+			width: 80%; /* Horizontally align to the center */
 		  }
 		
 		  .base-flexbox-image {
-			max-width: 100%; /* Full width in portrait mode */
+			max-width: 90%; /* Full width in portrait mode */
+		  }
+
+		  .base-flexbox.cv {
+			text-align: center;
+			width: 100%;
+		  }
+
+		  .base-flexbox-image.cv {
+			width: 65%;
+		  }
+		  .left-column {
+			flex-basis: 100%; /* Adjust the width of the left column as needed */
+			padding: 0px;
+		  }
+		
+		  .right-column {
+			flex-basis: 100%; /* Adjust the width of the right column as needed */
+			padding: 0px;
 		  }
 }
 
