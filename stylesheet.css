@@ -46,7 +46,7 @@
 }
 
 /* ==========================================================================
-   Base styles: Header (h1, menu)
+   Base styles: Headers
    ========================================================================== */
 .header {
     background-color: var(--background-primary);
@@ -73,6 +73,12 @@ h1 {
 	margin-bottom: 10px;
     padding: 0.65em;
 }
+
+.header.small {
+	margin-left: 10%;
+	margin-right: 10%;
+  }
+
 
 /* ==========================================================================
    Base styles: Main Content
@@ -113,7 +119,33 @@ h1 {
 	text-align: center;
   }
 
+  /* ==========================================================================
+   Base styles: Tables
+   ========================================================================== */
+.unitable {
+	overflow-x: auto;
+}
 
+.main table,
+.main th,
+.main td {
+	border: 1px solid;
+	background-color: var(--background-primary);
+	border-color: var(--foreground-secondary)
+}
+
+
+.main th,
+.main td {
+	padding: 10px;
+}
+
+.main table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
 
 
 
@@ -213,7 +245,7 @@ h1 {
         align-items: center;
     }
 
-    h1 {
+    h1, h2 {
         text-align: center;
     }
 
@@ -228,6 +260,12 @@ h1 {
     .menu a {
         margin: 5px; 
     }
+
+	.header.small {
+		margin-left: 1%;
+		margin-right: 1%;
+	  }
+	
 	/* ==========================================================================
        Alternate styles: Main Content
    	   ========================================================================== */
