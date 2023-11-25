@@ -2,7 +2,7 @@
    Base styles: Definitions, Browser Reset
    ========================================================================== */
 :root {
-	/* Colour definitions; courtesy of https://love.holllo.cc/ */ 
+	/* Colour definitions; courtesy of "The Love Theme" (https://love.holllo.cc/ | MIT license)*/ 
 	--foreground-primary: #F2EFFF;
 	--foreground-secondary: #E6DEFF;
 	--background-primary: #1F1731;
@@ -144,6 +144,25 @@ h1 {
 	 /* Adjust padding as needed */
   }
 
+  .my-projects {
+	flex: 1;
+	flex-basis: 100%; 
+	box-sizing: border-box;
+	padding-right: 50px;
+	padding-left: 0px;
+	/* Adjust padding as needed */
+  }
+  
+  /* Styles for cv-right-column */
+  .my-contributions {
+	flex: 1;
+	box-sizing: border-box;
+	flex-basis: 100%;
+	padding-left: 50px;
+	padding-right: 0px;
+	 /* Adjust padding as needed */
+  }
+
   .base-flexbox.cv {
 	border: 0;
 	
@@ -228,6 +247,14 @@ h1 {
 		  .right-column {
 			flex-basis: 40%; /* Adjust the width of the right column as needed */
 		  }
+
+		  .my-projects {
+			flex-basis: 50%;
+		  }
+
+		  .my-contributions {
+			flex-basis: 50%;
+		  }
 		  
 		  .base-flexbox.cv {
 			width: 100%;
@@ -286,6 +313,13 @@ h1 {
 			width: 100%;
 		  }
 
+		  .my-projects {
+			flex-basis: 50%;
+		  }
+
+		  .my-contributions {
+			flex-basis: 50%;
+		  }
 	}
 
 	
@@ -350,6 +384,16 @@ h1 {
 		  }
 		
 		  .right-column {
+			flex-basis: 100%; /* Adjust the width of the right column as needed */
+			padding: 0px;
+		  }
+
+		  .my-projects {
+			flex-basis: 100%; /* Adjust the width of the left column as needed */
+			padding: 0px;
+		  }
+		
+		  .my-contributions {
 			flex-basis: 100%; /* Adjust the width of the right column as needed */
 			padding: 0px;
 		  }
