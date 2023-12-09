@@ -56,6 +56,12 @@
     padding: 10px; 
 }
 
+.header.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
 h1 {
     color: var(--foreground-primary);
     margin: 0;
@@ -337,6 +343,20 @@ h1 {
         align-items: center;
     }
 
+	.header.navbar {
+		position: relative; /* Change to relative */
+	  }
+	
+	.header.navbar h1 {
+		position: fixed; /* Fix the h1 header */
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: var(--background-primary);
+		padding: 10px;
+		z-index: 1000;
+	}
+	
     h1, h2 {
         text-align: center;
     }
@@ -346,7 +366,9 @@ h1 {
         flex-direction: row;
         flex-wrap: wrap; 
         justify-content: center;
-        margin-top: 10px;
+		margin-top: 60px; /* Adjust this value based on the height of your fixed h1 header */
+		position: sticky;
+		top: 0;
     }
 
     .menu a {
