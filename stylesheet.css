@@ -41,9 +41,45 @@
 		margin: 0;
 		padding: 0;
 	}
-
+	overflow-x: hidden;
 	background-color: var(--background-secondary);
 }
+
+/* ==========================================================================
+   Imports: Fonts
+   ========================================================================== */
+
+  @font-face {
+	font-family: 'Azeret Mono';
+	src: url('fonts/AzeretMono-Medium.ttf'); /* Repo: https://github.com/displaay/Azeret/ - License: https://openfontlicense.org/ */
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+  } 
+
+  @font-face {
+	font-family: 'Ubuntu Mono';
+	src: url('fonts/UbuntuMono-Regular.ttf'); /* Source: https://design.ubuntu.com/font - License: https://ubuntu.com/legal/font-licence */
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+  } 
+
+  @font-face {
+	font-family: 'Jetbrains Mono Light';
+	src: url('fonts/JetBrainsMono-Light.ttf');  /* Repo: https://github.com/JetBrains/JetBrainsMono - License: https://openfontlicense.org/ */
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+  } 
+
+  @font-face {
+	font-family: 'Jetbrains Mono Regular';
+	src: url('fonts/JetBrainsMono-Regular.ttf'); /* Repo: https://github.com/JetBrains/JetBrainsMono - License: https://openfontlicense.org/ */
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+  } 
 
 /* ==========================================================================
    Base styles: Headers
@@ -65,6 +101,17 @@
 h1 {
     color: var(--foreground-primary);
     margin: 0;
+	font-family: 'Azeret Mono';
+}
+
+h2, h3 {
+	font-family: 'Jetbrains Mono Regular';
+}
+
+p {
+	font-family: 'Jetbrains Mono Light';
+	font-size: 15pt;
+	overflow-wrap: anywhere; /* If it worketh, it worketh */
 }
 
 .menu {
@@ -78,6 +125,7 @@ h1 {
     margin-top: 10px;
 	margin-bottom: 10px;
     padding: 0.65em;
+	font-family: 'Jetbrains Mono Regular';
 }
 
 .header.small {
@@ -100,6 +148,9 @@ h1 {
 	margin-bottom: 2%;
 }
 
+.main a {
+	color: var(--accent-lime)
+}
 .center {
 	text-align: center;
 }
