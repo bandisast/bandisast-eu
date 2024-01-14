@@ -82,6 +82,28 @@
   } 
 
 /* ==========================================================================
+   Base styles: Animations
+   ========================================================================== */
+
+   @keyframes typing {
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
+}
+
+@keyframes blinkCursor {
+    0%, 100% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #ffffff; /* Adjust the color to match your design */
+    }
+}
+
+/* ==========================================================================
    Base styles: Headers
    ========================================================================== */
 .header {
@@ -104,6 +126,13 @@ h1 {
 	font-family: 'Azeret Mono';
 }
 
+h1 span {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid #ffffff;
+	animation: typing 1s steps(13, end) forwards, blinkCursor 1s infinite 2s;
+}
 h2, h3 {
 	font-family: 'Jetbrains Mono Regular';
 }
@@ -257,8 +286,12 @@ p {
 	width: 70%;
 }
 
-
-
+/* ==========================================================================
+   Base styles: Footer
+   ========================================================================== */
+.footer {
+	text-align: center;
+}
 
 
 
