@@ -193,14 +193,6 @@ h2, h3 {
 	font-family: 'Jetbrains Mono Regular';
 }
 
-span.blinker {
-	display: inline-block;
-	white-space: nowrap;
-	overflow: hidden;
-	border-right: 2px solid #ffffff;
-	animation: blinkCursor 1s infinite;
-}
-
 p {
 	font-family: 'Jetbrains Mono Light';
 	font-size: 15pt;
