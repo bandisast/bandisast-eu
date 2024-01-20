@@ -92,16 +92,72 @@
 	to {
 		width: 100%;
 	}
-}
+	}
 
-@keyframes blinkCursor {
+	@keyframes blinkCursor {
     0%, 100% {
         border-color: transparent;
     }
     50% {
         border-color: #ffffff; /* Adjust the color to match your design */
     }
-}
+	}
+
+/* ==========================================================================
+   Base styles: Colours
+   ========================================================================== */
+
+   .accent-red-text {
+	color: var(--accent-red);
+  }
+  
+  .accent-orange-text {
+	color: var(--accent-orange);
+  }
+  
+  .accent-yellow-text {
+	color: var(--accent-yellow);
+  }
+  
+  .accent-lime-text {
+	color: var(--accent-lime);
+  }
+  
+  .accent-green-text {
+	color: var(--accent-green);
+  }
+  
+  .accent-minty-text {
+	color: var(--accent-minty);
+  }
+  
+  .accent-seablue-text {
+	color: var(--accent-seablue);
+  }
+  
+  .accent-blurple-text {
+	color: var(--accent-blurple);
+  }
+  
+  .accent-lavender-text {
+	color: var(--accent-lavender);
+  }
+  
+  .accent-pink-text {
+	color: var(--accent-pink);
+  }
+  
+  .gray-1-text {
+	color: var(--gray-1);
+  }
+  
+  .gray-2-text {
+	color: var(--gray-2);
+  }
+  
+  .gray-3-text {
+	color: var(--gray-3);
+  }
 
 /* ==========================================================================
    Base styles: Headers
@@ -135,6 +191,14 @@ h1 span {
 }
 h2, h3 {
 	font-family: 'Jetbrains Mono Regular';
+}
+
+span.blinker {
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid #ffffff;
+	animation: blinkCursor 1s infinite;
 }
 
 p {
