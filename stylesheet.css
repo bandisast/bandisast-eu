@@ -189,7 +189,8 @@ h1 span {
 	border-right: 2px solid #ffffff;
 	animation: typing 1s steps(13, end) forwards, blinkCursor 1s infinite 2s;
 }
-h2, h3 {
+
+h2, h3, h4 {
 	font-family: 'Jetbrains Mono Regular';
 }
 
@@ -218,6 +219,15 @@ p {
 	margin-right: 10%;
   }
 
+  .header.med {
+	margin-left: 4%;
+	margin-right: 4%;
+  }
+
+  .pubs-container {
+	margin-left: 4%;
+	margin-right: 4%;
+  }
 
 /* ==========================================================================
    Base styles: Main Content
@@ -236,8 +246,13 @@ p {
 .main a {
 	color: var(--accent-lime)
 }
+
 .center {
 	text-align: center;
+}
+
+.hyphenate {
+	hyphens: auto;
 }
 
 .base-flexbox {
