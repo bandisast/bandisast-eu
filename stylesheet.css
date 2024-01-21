@@ -99,7 +99,7 @@
         border-color: transparent;
     }
     50% {
-        border-color: #ffffff; /* Adjust the color to match your design */
+        border-color: #ffffff; 
     }
 	}
 
@@ -281,24 +281,24 @@ p {
 	flex-wrap: wrap;
   }
   
-  /* Styles for cv-left-column */
+  
   .left-column {
 	flex: 1;
 	flex-basis: 100%; 
 	box-sizing: border-box;
 	padding-right: 50px;
 	padding-left: 0px;
-	/* Adjust padding as needed */
+	
   }
   
-  /* Styles for cv-right-column */
+  
   .right-column {
 	flex: 1;
 	box-sizing: border-box;
 	flex-basis: 100%;
 	padding-left: 50px;
 	padding-right: 0px;
-	 /* Adjust padding as needed */
+	
   }
 
   .my-projects {
@@ -307,17 +307,17 @@ p {
 	box-sizing: border-box;
 	padding-right: 50px;
 	padding-left: 0px;
-	/* Adjust padding as needed */
+	
   }
   
-  /* Styles for cv-right-column */
+  
   .my-contributions {
 	flex: 1;
 	box-sizing: border-box;
 	flex-basis: 100%;
 	padding-left: 50px;
 	padding-right: 0px;
-	 /* Adjust padding as needed */
+	 
   }
 
   .base-flexbox.cv {
@@ -398,15 +398,15 @@ p {
 		
 		  .base-flexbox-text {
 			padding-left: 1%;
-			text-align: left; /* Align text to the left in landscape mode */
+			text-align: left;
 		  }
 
 		  .left-column {
-			flex-basis: 60%; /* Adjust the width of the left column as needed */
+			flex-basis: 60%; 
 		  }
 		
 		  .right-column {
-			flex-basis: 40%; /* Adjust the width of the right column as needed */
+			flex-basis: 40%;
 		  }
 
 		  .my-projects {
@@ -455,7 +455,7 @@ p {
 		
 		  .base-flexbox-text {
 			padding-left: 1%;
-			text-align: left; /* Align text to the left in landscape mode */
+			text-align: left; 
 		  }
 		
 		.main {
@@ -463,11 +463,11 @@ p {
 			margin-right: 10%;
 		}
 		.left-column {
-			flex-basis: 60%; /* Adjust the width of the left column as needed */
+			flex-basis: 60%; 
 		  }
 		
 		  .right-column {
-			flex-basis: 40%; /* Adjust the width of the right column as needed */
+			flex-basis: 40%; 
 		  }
 
 		  .base-flexbox.cv {
@@ -499,17 +499,21 @@ p {
     }
 
 	.header.navbar {
-		position: relative; /* Change to relative */
+		position: sticky; 
+		padding: 10px;
 	  }
 	
 	.header.navbar h1 {
-		position: fixed; /* Fix the h1 header */
+		position: fixed; 
 		top: 0;
 		left: 0;
 		right: 0;
 		background-color: var(--background-primary);
 		padding: 10px;
 		z-index: 1000;
+		margin-left: auto;
+		margin-right: auto;
+		width: fit-content;
 	}
 	
     h1, h2 {
@@ -521,7 +525,7 @@ p {
         flex-direction: row;
         flex-wrap: wrap; 
         justify-content: center;
-		margin-top: 60px; /* Adjust this value based on the height of your fixed h1 header */
+		margin-top: 60px;
 		position: sticky;
 		top: 0;
     }
@@ -540,11 +544,11 @@ p {
    	   ========================================================================== */
 		  .base-flexbox {
 			align-items: center;
-			width: 80%; /* Horizontally align to the center */
+			width: 80%; 
 		  }
 		
 		  .base-flexbox-image {
-			max-width: 90%; /* Full width in portrait mode */
+			max-width: 90%; 
 		  }
 
 		  .base-flexbox.cv {
@@ -556,22 +560,22 @@ p {
 			width: 65%;
 		  }
 		  .left-column {
-			flex-basis: 100%; /* Adjust the width of the left column as needed */
+			flex-basis: 100%; 
 			padding: 0px;
 		  }
 		
 		  .right-column {
-			flex-basis: 100%; /* Adjust the width of the right column as needed */
+			flex-basis: 100%; 
 			padding: 0px;
 		  }
 
 		  .my-projects {
-			flex-basis: 100%; /* Adjust the width of the left column as needed */
+			flex-basis: 100%; 
 			padding: 0px;
 		  }
 		
 		  .my-contributions {
-			flex-basis: 100%; /* Adjust the width of the right column as needed */
+			flex-basis: 100%;
 			padding: 0px;
 		  }
 }
