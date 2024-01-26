@@ -57,13 +57,14 @@
 	font-display: swap;
   } 
 
-  @font-face {
+/*  @font-face {
 	font-family: 'Ubuntu Mono';
-	src: url('fonts/UbuntuMono-Regular.ttf'); /* Source: https://design.ubuntu.com/font - License: https://ubuntu.com/legal/font-licence */
+	src: url('fonts/UbuntuMono-Regular.ttf');  Source: https://design.ubuntu.com/font - License: https://ubuntu.com/legal/font-licence 
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-  } 
+  } */
+
 
   @font-face {
 	font-family: 'Jetbrains Mono Light';
@@ -229,6 +230,10 @@ p {
 	margin-right: 4%;
   }
 
+  .category-shortcut {
+	font-family: 'Jetbrains Mono Regular';
+	text-align: center;
+}
 /* ==========================================================================
    Base styles: Main Content
    ========================================================================== */
@@ -249,6 +254,12 @@ p {
 
 .center {
 	text-align: center;
+}
+
+.center-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .hyphenate {
@@ -336,26 +347,49 @@ p {
 	overflow-x: auto;
 }
 
-.main table,
-.main th,
-.main td {
+.unitable table,
+.unitable th,
+.unitable td {
 	border: 1px solid;
 	background-color: var(--background-primary);
 	border-color: var(--foreground-secondary)
 }
 
+td {
+	font-family: 'Jetbrains Mono Light';
+	font-size: 15pt;
+}
 
-.main th,
-.main td {
+th {
+	font-family: 'Jetbrains Mono Regular';
+	font-size: 15pt;
+}
+
+.unitable th,
+.unitable td {
 	padding: 10px;
 }
 
-.main table {
+.unitable table {
 	border-collapse: collapse;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
 }
+
+
+.language-table {
+    border-collapse: collapse;
+	margin-left: auto;
+    margin-right: auto;
+	white-space: nowrap;
+  }
+
+  .language-table td {
+    padding: 8px;
+    text-align: left;
+  }
+
 
 /* ==========================================================================
    Base styles: Footer
