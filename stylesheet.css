@@ -284,7 +284,7 @@ p {
   }
   
 .base-flexbox-text {
-	text-align: center;
+	text-align: left;
   }
 
   .cv-container {
@@ -432,7 +432,6 @@ th {
 		
 		  .base-flexbox-text {
 			padding-left: 1%;
-			text-align: left;
 		  }
 
 		  .left-column {
@@ -489,7 +488,6 @@ th {
 		
 		  .base-flexbox-text {
 			padding-left: 1%;
-			text-align: left; 
 		  }
 		
 		.main {
@@ -565,7 +563,8 @@ th {
     }
 
     .menu a {
-        margin: 5px; 
+        margin: 8px; 
+		padding: 0.25em;
     }
 
 	.header.small {
@@ -573,6 +572,13 @@ th {
 		margin-right: 1%;
 	  }
 	
+	.category-shortcut {
+		line-height: 2em;
+	}
+	.category-shortcut a {
+        margin-left: 4px; 
+		margin-right: 4px;
+	}
 	/* ==========================================================================
        Alternate styles: Main Content
    	   ========================================================================== */
@@ -611,6 +617,10 @@ th {
 		  .my-contributions {
 			flex-basis: 100%;
 			padding: 0px;
+		  }
+
+		  .mobile-center {
+			text-align: center;
 		  }
 }
 
