@@ -219,6 +219,12 @@ p {
 	border-radius: 2px;
 }
 
+.menu a:hover, .menu a:focus {
+    color: var(--foreground-primary);
+    background-color: var(--background-primary);
+    transition: color 0.3s, background-color 0.3s;
+}
+
 .header.small {
 	margin-left: 10%;
 	margin-right: 10%;
@@ -238,6 +244,7 @@ p {
 	font-family: 'Jetbrains Mono Regular';
 	text-align: center;
 }
+
 /* ==========================================================================
    Base styles: Main Content
    ========================================================================== */
