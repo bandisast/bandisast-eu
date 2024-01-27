@@ -10,14 +10,6 @@
 		<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/" />
 	</url>
 	<url>
-		<loc>https://bandisast.eu/about</loc>
-		<lastmod>2023-03-15T12:34:09+01:00</lastmod>
-		<priority>1.0</priority>
-		<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/about" />
-		<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/el/about" />
-		<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/about" />
-	</url>
-	<url>
 		<loc>https://bandisast.eu/cv</loc>
 		<lastmod>2023-03-15T12:34:09+01:00</lastmod>
 		<priority>1.0</priority>
@@ -58,14 +50,6 @@
 		<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/el/" />
 	</url>
 	<url>
-		<loc>https://bandisast.eu/el/about</loc>
-		<lastmod>2023-03-15T12:34:13+01:00</lastmod>
-		<priority>0.8</priority>
-		<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/el/about" />
-		<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/about" />
-		<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/about" />
-	</url>
-	<url>
 		<loc>https://bandisast.eu/el/cv</loc>
 		<lastmod>2023-03-15T12:34:13+01:00</lastmod>
 		<priority>0.8</priority>
@@ -88,14 +72,6 @@
 		<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/el/posts" />
 		<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/posts" />
 		<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/posts" />
-	</url>
-	<url>
-		<loc>https://bandisast.eu/pl/about</loc>
-		<lastmod>2023-03-15T12:34:13+01:00</lastmod>
-		<priority>0.8</priority>
-		<xhtml:link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/about" />
-		<xhtml:link rel="alternate" hreflang="en" href="https://bandisast.eu/about" />
-		<xhtml:link rel="alternate" hreflang="el" href="https://bandisast.eu/el/about" />
 	</url>
 	<url>
 		<loc>https://bandisast.eu/pl/cv</loc>
