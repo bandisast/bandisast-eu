@@ -180,7 +180,7 @@
 h1 {
     color: var(--foreground-primary);
     margin: 0;
-	font-family: 'Azeret Mono';
+	font-family: 'Azeret Mono', monospace;
 }
 
 h1 span {
@@ -192,11 +192,11 @@ h1 span {
 }
 
 h2, h3, h4 {
-	font-family: 'Jetbrains Mono Regular';
+	font-family: 'Jetbrains Mono Regular', monospace;
 }
 
 p {
-	font-family: 'Jetbrains Mono Light';
+	font-family: 'Jetbrains Mono Light', monospace;
 	font-size: 15pt;
 	overflow-wrap: anywhere; /* If it worketh, it worketh */
 }
@@ -215,7 +215,7 @@ p {
 	margin-left: 0.60em;
 	margin-right: 0.60em;
     padding: 0.15em;
-	font-family: 'Jetbrains Mono Regular';
+	font-family: 'Jetbrains Mono Regular', monospace;
 	border-radius: 2px;
 }
 
@@ -241,7 +241,7 @@ p {
   }
 
   .category-shortcut {
-	font-family: 'Jetbrains Mono Regular';
+	font-family: 'Jetbrains Mono Regular', monospace;
 	text-align: center;
 }
 
@@ -367,12 +367,12 @@ p {
 }
 
 td {
-	font-family: 'Jetbrains Mono Light';
+	font-family: 'Jetbrains Mono Light', monospace;
 	font-size: 15pt;
 }
 
 th {
-	font-family: 'Jetbrains Mono Regular';
+	font-family: 'Jetbrains Mono Regular', monospace;
 	font-size: 15pt;
 }
 
