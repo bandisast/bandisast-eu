@@ -206,7 +206,7 @@ p {
     flex-direction: column;
 }
 
-.menu a {
+.header a {
     text-decoration: none;
     background-color: var(--foreground-primary);
 	color: var(--background-primary);
@@ -219,7 +219,7 @@ p {
 	border-radius: 2px;
 }
 
-.menu a:hover, .menu a:focus {
+.header a:hover, .header a:focus {
     color: var(--foreground-primary);
     background-color: var(--background-primary);
     transition: color 0.3s, background-color 0.3s;
@@ -259,7 +259,7 @@ p {
 	margin-bottom: 2%;
 }
 
-.main a {
+a {
 	color: var(--accent-lime)
 }
 
@@ -287,7 +287,21 @@ p {
 	border-style: hidden hidden solid;
 	border-color: var(--foreground-secondary);
   }
-  
+
+.base-flexbox.index {
+	width: 80%
+}
+
+.base-flexbox-image.index {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.base-flexbox-text.index {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
 .base-flexbox-image {
 	max-width: 50%;
 	height: auto;
@@ -316,8 +330,8 @@ p {
   
   .right-column {
 	flex: 1;
-	box-sizing: border-box;
 	flex-basis: 100%;
+	box-sizing: border-box;
 	padding-left: 50px;
 	padding-right: 0px;
 	
@@ -606,6 +620,27 @@ th {
 		
 		  .base-flexbox-image {
 			max-width: 90%; 
+		  }
+
+		  .base-flexbox.index {
+			width: 95%;
+			padding: 0;
+		  }
+		
+		.base-flexbox-image.index {
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 20px;
+		  }
+		
+		.base-flexbox-text.index {
+			margin-left: 0;
+			margin-right: 0;
+			margin-top: 15px;
+		  }
+
+		  .cv-container {
+			display: block;
 		  }
 
 		  .base-flexbox.cv {
