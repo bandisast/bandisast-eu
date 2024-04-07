@@ -104,6 +104,18 @@
     }
 	}
 
+    @keyframes spectrumGradient {
+        0% { color: var(--accent-red); }
+        10% { color: var(--accent-orange); }
+        20% { color: var(--accent-yellow); }
+        30% { color: var(--accent-lime); }
+        40% { color: var(--accent-green); }
+        50% { color: var(--accent-minty); }
+        60% { color: var(--accent-seablue); }
+        70% { color: var(--accent-blurple); }
+        80% { color: var(--accent-lavender); }
+        100% { color: var(--accent-pink); }
+    }
 /* ==========================================================================
    Base styles: Colours
    ========================================================================== */
@@ -259,9 +271,15 @@ p {
 	margin-bottom: 2%;
 }
 
-a {
-	color: var(--accent-lime)
+.generic-link {
+	text-decoration: none;
+	animation: spectrumGradient 120s infinite alternate;
 }
+
+.generic-link:hover {
+	font-size: 16pt; /* Adjust font size as desired */
+	transition: font-size 0.2s; /* Adding transition for smooth effect */
+  }
 
 .center {
 	text-align: center;
