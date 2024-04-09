@@ -276,9 +276,9 @@ p {
 	animation: spectrumGradient 120s infinite alternate;
 }
 
-.generic-link:hover {
-	font-size: 16pt; /* Adjust font size as desired */
-	transition: font-size 0.2s; /* Adding transition for smooth effect */
+.generic-link:hover, .generic-link:focus {
+	font-size: 16pt; 
+	transition: font-size 0.2s; 
   }
 
 .center {
