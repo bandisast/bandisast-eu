@@ -1,12 +1,12 @@
 User-Agent: *
-Disallow: /autom-ihu.html
+Disallow: /autom-ihu.xhtml
 Disallow: /autom-ihu
-Disallow: /pl/autom-ihu.html
+Disallow: /pl/autom-ihu.xhtml
 Disallow: /pl/autom-ihu
 Disallow: /el/autom-ihu
-Disallow: /el/autom-ihu.html
+Disallow: /el/autom-ihu.xhtml
 Disallow: /rss.xml
-Disallow: /not_found.html
-Disallow: /not_found
+Disallow: /teapot.xhtml
+Disallow: /teapot
 
 Sitemap: https://bandisast.eu/sitemap4.xml
