@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="el" xml:lang="el">
 
@@ -12,10 +13,10 @@
 	<link rel="alternate" hreflang="en" href="https://bandisast.eu/cv" />
 	<link rel="alternate" hreflang="pl" href="https://bandisast.eu/pl/cv" />
 	<link rel="icon" type="image/png" href="../favicon.png" />
-	<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../stylesheet.css" media="screen" />
 	<meta http-equiv="Content-Security-Policy" content="default-src 'self'" />
 	<meta name="author" content="Aster Bandis" />
-	<meta name="theme-color" content="#0d1c30" />
+	<meta name="theme-color" content="#2a2041" />
 	<link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
 	<meta name="og:site_name" content="Aster's Space" />
 	<meta name="og:title" content="Βιογραφικό" />
@@ -26,274 +27,347 @@
 </head>
 
 <body>
-	<div id="content" class="content">
-		<h1><label for="checkbox">Aster's space</label></h1>
-		<input type="checkbox" id="checkbox" />
-		<span class="toggler">
-			<label for="checkbox">Πατώντας το πλήκτρο «Spacebar» τώρα, μπορείτε να [απ]ενεργοποιήσετε τη λειτουργία
-				προσβασιμότητας!</label>
-		</span>
+	<div class="header navbar">
+		<h1><span>&gt;bandisast.eu</span></h1>
 		<div class="menu">
-			<a href="./">Αρχική</a>
-			<a href="about">Πληροφορίες</a>
-			<a href="cv">Βιογραφικό Σημείωμα</a>
-			<a href="projects">Πρότζεκτ</a>
-			<a href="posts">Αναρτήσεις</a>
-			<a href="../">English</a>
-			<a href="../pl/">Polski</a>
+			<a href="./"><b>Αρχική</b></a>
+			<a href="cv"><b>Βιογραφικό Σημείωμα</b></a>
+			<a href="projects"><b>Πρότζεκτ</b></a>
+			<a href="posts"><b>Αναρτήσεις</b></a>
+			<a href="../"><b>English</b></a>
+			<a href="../pl/"><b>Polski</b></a>
 		</div>
-		<br />
-		<div class="bg">
-			<p class="announcement">Σημείωση: Αυτό το βιογραφικό σημείωμα (εσκεμμένα) δεν είναι επικαιροποιημένο επί του παρόντος, για λόγους ιδιωτικότητας.</p>
-			<div id="outline-container-org0a69b64" class="outline-2">
-				<h2 id="org0a69b64">Εργασιακή Εμπειρία</h2>
-				<div class="outline-text-2" id="work-experience">
-					<p class="cv-paragraph" id="lancom">
-						<img src="../files/images/lancom.svg" alt="Lancom Ltd." class="cv-image" /><span
-							class="cv-text"><b><a href="https://www.lancom.gr/">System Administrator (Πρακτική) - Lancom
-									Ltd.</a></b> <i>(Νοε. 2022 - Μαϊ. 2023)</i>
+	</div>
+	<div class="main">
+		<p class="announcement">Σημείωση: Αυτό το βιογραφικό σημείωμα (εσκεμμένα) δεν είναι επικαιροποιημένο επί του παρόντος, για λόγους ιδιωτικότητας.</p>
+		<div class="header">
+			<h2>Βιογραφικό Σημείωμα</h2>
+			<span class="category-shortcut">
+				<a href="#work-experience" class="category-shortcut">Εργασιακή Εμπειρία</a>
+				<a href="#text-education" class="category-shortcut">Εκπαίδευση</a>
+				<a href="#text-licences" class="category-shortcut">Πιστοποιήσεις</a>
+				<a href="#languages-skills" class="category-shortcut">Γλώσσες και Δεξιότητες</a>
+			</span>
+		</div>
+		<div class="cv-container">
+			<div class="left-column">
+				<br />
+				<div class="header">
+					<h3>Work experience</h3>
+				</div>
+				<div id="work-experience">
+					<br />
+					<br />
+					<p id="lancom" class="base-flexbox cv">
+						<img src="../files/images/lancom.svg" alt="Lancom Ltd." class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://www.lancom.gr/" class="generic-link">System Administrator (Πρακτική) - Lancom Ltd</a></b> <i>(Νοέ. 2022 - Μάι. 2023)</i>
 							<br />
-							* Διαμόρφωση, διαχείριση και συντήρηση αρκετών διακομιστών Linux, Windows και ESXi και
-							συστάδων διακομιστών σε περιβάλλοντα production και development.
+							* Διαμόρφωση, διαχείριση και συντήρηση αρκετών διακομιστών Linux, Windows και ESXi και συστάδων διακομιστών σε περιβάλλοντα production και development.
 							<br />
-							* Διαχείριση και συντήρηση κοινών υπηρεσιών, όπως DNS, webservers, mailservers, βάσεις
-							δεδομένων, monitoring, fileservers, AD/LDAP, και αυτοματοποιημένη λήψη αντιγράφων ασφαλείας,
-							τόσο σε «bare-metal» όσο και σε Docker και Kubernetes.
+							* Διαχείριση και συντήρηση κοινών υπηρεσιών, όπως DNS, webservers, mailservers, βάσεις δεδομένων, monitoring, fileservers, AD/LDAP, και αυτοματοποιημένη λήψη αντιγράφων ασφαλείας, τόσο σε «bare-metal» όσο και σε Docker και Kubernetes.
 							<br />
-							* Εγκατάσταση και συντήρηση κοινών διαμορφώσεων δικτύωσης, όπως VPN, αντισταθμιστών φορτίου,
-							proxies, NAT, IPSec, και VoIP.
+							* Εγκατάσταση και συντήρηση κοινών διαμορφώσεων δικτύωσης, όπως VPN, αντισταθμιστών φορτίου, proxies, NAT, IPSec, και VoIP.
 							<br />
-							* Παροχή διαχειριζομένων υπηρεσιών και τεχνικής υποστήριξης σε πελάτες
+							* Παροχή διαχειριζομένων υπηρεσιών και τεχνικής υποστήριξης σε πελάτες.
 							<br />
-							* Παροχή υποστήριξης QA και αναφορών σφαλμάτων για τον πίνακα "myLancom"
+							* Παροχή υποστήριξης QA και αναφορών σφαλμάτων για τον πίνακα "myLancom".
 							<br />
-							* Συγγραφή εγγράφων τεκμηρίωσης, με άμεση συνέπεια τη βελτίωση της αποτελεσματικότητας των
-							διαδικασιών
+							* Συγγραφή εγγράφων τεκμηρίωσης, με άμεση συνέπεια τη βελτίωση της αποτελεσματικότητας των διαδικασιών.
 							<br />
-							* Διοίκηση και εκπαίδευση άλλων πρακτικαρίων
+							* Διοίκηση και εκπαίδευση άλλων πρακτικαρίων.
+						</span>
+					</p>
+					<br />
+					<p class="base-flexbox cv" id="asat-it">
+						<img src="../files/images/asat.png" alt="ASAT" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://www.asat.gr/" class="generic-link">System Administrator - Aristotle Space &amp; Aeronautics Team</a></b> <i>(Ιαν. 2021 - Σεπ. 2022)</i>
+							<br />
+							* Διαχείριση των υπηρεσιών της ομάδας με υψηλή απόδοση και αξιοπιστία (>99.85% uptime).
+							<br />
+							* Συμμετοχή στο σχεδιασμό και την ανάπτυξη διαδικτυακών εφαρμογών που ανταποκρίνονται στις ανάγκες της ομάδας.
+							<br />
+							* Εγκατάσταση και τακτική ενημέρωση όλων των βοηθητικών προγραμμάτων SaaS της ομάδας.
+							<br />
+							* Διαχείριση και διασφάλιση διαφόρων διακομιστών Linux και υπολογιστικών περιβαλλόντων, συμπεριλαμβανομένων υπηρεσιών όπως Apache2, Nginx, MySQL, OpenLDAP.
+							<br />
+							* Παροχή γρήγορης υποστήριξης ΙΤ.
+							<br />
+							* Διαχείριση του τμήματος IT της ομάδας, εκπαίδευση νέων μελών και συγγραφλη τεκμηρίωσης IT για μελλοντικ@ SysAdmins της ομάδας.
+						</span>
+					</p>
+					<p class="base-flexbox cv" id="asat-avionics">
+						<img src="../files/images/asat.png" alt="ASAT" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://www.asat.gr/" class="generic-link">Avionics Engineer -
+									Aristotle
+									Space &amp; Aeronautics
+									Team</a></b> <i>(Νοέ. 2019 - Μαρ. 2021)</i>
+							<br />
+							* Έρευνα και προγραμματισμός αισθητήρων σε C++.
+							<br />
+							* Σχεδιασμός και συναρμολόγηση πλακέτας αισθητήρων.
+							<br />
+							* Έρευνα και εφαρμογή συστήματος αυτόματου πιλότου.
+							<br />
+							* Ανάπτυξη λογισμικού υπολογιστικών εργαλείων.
+							<br />
+							* Συγγραφή τεχνικών εγγράφων σχετικά με τη διαδικασία ανάπτυξης, καθώς και δημιουργία και συντήρηση ενός συστήματος ταξινόμησης εγγράφων για ευκολότερη διαχείριση και αρχειοθέτηση αυτών. 
+						</span>
+					</p>
+					<p class="base-flexbox cv" id="autoros">
+						<img src="../files/images/autoros.svg" alt="AutoROS" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://autoros.iem.ihu.gr/" class="generic-link">Autonomous Vehicles
+									Engineer - AutoROS Team</a></b>
+							<i>(Οκτ. 2019 - Ιούλ. 2020)</i>
+							<br />
+							* Ανάπτυξη λογισμικού ROS σε C++ και Python.
+							<br />
+							* Έρευνα και προγραμματισμός αισθητήρων.
+							<br />
+							* Συντήρηση των αυτόνομων οχημάτων.
+							<br />
+							* Δημιουργία εγχειριδίου ROS για τα μελλοντικά μέλη της ομάδας.
+							<br />
+							* Δημιουργία και ενημέρωση εγγράφων «ποιότητας ζωής» για την ομάδα.
 						</span>
 					</p>
 				</div>
 				<br />
-				<p class="cv-paragraph" id="asat-it">
-					<img src="../files/images/asat.png" alt="ASAT" class="cv-image" /><span class="cv-text"><b><a
-								href="https://www.asat.gr/">System Administrator - Aristotle Space &amp; Aeronautics
-								Team</a></b> <i>(Ιαν. 2021 - Σεπ. 2022)</i>
-						<br />
-						* Διαχείριση των υπηρεσιών της ομάδας με υψηλή απόδοση και αξιοπιστία (>99.85% uptime)
-						<br />
-						* Συμμετοχή στο σχεδιασμό και την ανάπτυξη διαδικτυακών εφαρμογών που ανταποκρίνονται στις
-						ανάγκες της ομάδας.
-						<br />
-						* Εγκατάσταση και τακτική ενημέρωση όλων των βοηθητικών προγραμμάτων SaaS της ομάδας
-						<br />
-						* Διαχείριση και διασφάλιση διαφόρων διακομιστών Linux και υπολογιστικών περιβαλλόντων,
-						συμπεριλαμβανομένων υπηρεσιών όπως Apache2, Nginx, MySQL, OpenLDAP
-						<br />
-						* Παροχή γρήγορης υποστήριξης ΙΤ
-						<br />
-						* Διαχείριση του τμήματος IT της ομάδας, εκπαίδευση νέων μελών και συγγραφλη τεκμηρίωσης IT για
-						μελλοντικ@ SysAdmins της ομάδας
-						<br />
-						<br />
-						Προκειμένου να υπάρξει ομαλή παράδοση, ο ρόλος μου στην ομάδα από τον Απρίλιο του 2022 έως τον
-						Σεπτέμβριο του
-						2022 ήταν κυρίως συμβουλευτικός και συμπληρωματικός.
-					</span>
-				</p>
-				<br />
-				<p class="cv-paragraph" id="asat-avionics">
-					<img src="../files/images/asat.png" alt="ASAT" class="cv-image" /><span class="cv-text"><b><a
-								href="https://www.asat.gr/">Avionics Engineer - Aristotle Space &amp; Aeronautics
-								Team</a></b> <i>(Νοε. 2019 - Μαρ. 2021)</i>
-						<br />
-						* Έρευνα και προγραμματισμός αισθητήρων σε C++
-						<br />
-						* Σχεδιασμός και συναρμολόγηση πλακέτας αισθητήρων
-						<br />
-						* Έρευνα και εφαρμογή συστήματος αυτόματου πιλότου
-						<br />
-						* Ανάπτυξη λογισμικού υπολογιστικών εργαλείων
-						<br />
-						* Συγγραφή τεχνικών εγγράφων σχετικά με τη διαδικασία ανάπτυξης, καθώς και δημιουργία και
-						συντήρηση ενός συστήματος ταξινόμησης εγγράφων για ευκολότερη διαχείριση και αρχειοθέτηση αυτών.
-					</span>
-				</p>
-				<br />
-				<p class="cv-paragraph" id="autoros">
-					<img src="../files/images/autoros.svg" alt="AutoROS" class="cv-image" /><span class="cv-text"><b><a
-								href="https://autoros.iem.ihu.gr/">Autonomous Vehicles Engineer - AutoROS Team</a></b>
-						<i>(Οκτ. 2019 - Ιούλ. 2020)</i>
-						<br />
-						* Ανάπτυξη λογισμικού ROS σε C++ και Python
-						<br />
-						* Έρευνα και προγραμματισμός αισθητήρων
-						<br />
-						* Συντήρηση των αυτόνομων οχημάτων
-						<br />
-						* Δημιουργία εγχειριδίου ROS για τα μελλοντικά μέλη της ομάδας
-						<br />
-						* Δημιουργία και ενημέρωση εγγράφων «ποιότητας ζωής» για την ομάδα
-					</span>
-				</p>
+				<div class="header">
+					<h3>Εκπαίδευση</h3>
+				</div>
+				<div id="text-education">
+					<br />
+					<p class="base-flexbox cv" id="autom-ihu">
+						<img src="../files/images/ihu.png" alt="IHU" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="http://iem.ihu.gr/" class="generic-link">Μηχανικών Αυτοματισμού T.E. - ΔΙΠΑΕ</a></b> <i>(Σεπ. 2018 - Ιούν. 2023)</i>
+							<br />
+							<br />
+							<b>Αποφοίτησε ως αριστούχος, με τον υψηλότερο μέσο όρο βαθμολογίας μεταξύ 63 φοιτητών για το ακαδημαϊκό έτος 2022-2023. </b>
+							<br />
+							<br />
+							Επιστημονικά πεδία:
+							<br />
+							* Εφαρμοσμένα Μαθηματικά
+							<br />
+							* Μηχανική Υπολογιστών
+							<br />
+							* Ηλεκτρολογική και Ηλεκτρονική Μηχανική
+							<br />
+							* Συστήματα Αυτομάτου Ελέγχου
+							<br />
+							* Μηχανολογική Μηχανική
+							<br />
+							* Ψηφιακά Συστήματα και Επεξεργασία Σημάτων
+							<br />
+							* Τεχνολογία Αυτοματισμών
+							<br />
+							* Τεχνολογικός Σχεδιασμός και CAD-CAM-CAE
+							<br />
+							* Μικροσυστήματα
+							<br />
+							<br />
+							Τίτλος πτυχιακής: Μετρήσεις σκέδασης με τον μικροϋπολογιστή Beaglebone για φορητούς οπτικούς βιοϊατρικούς αισθητήρες.
+							<br />
+							<a href="autom-ihu" class="generic-link">[Περισσότερες πληροφορίες]</a>
+						</span>
+					</p>
+				</div>
 			</div>
-			<br />
-			<h2>Εκπαίδευση</h2>
-			<div class="outline-text-2" id="text-education">
-				<p class="cv-paragraph" id="autom-ihu">
-					<img src="../files/images/ihu.svg" alt="IHU" class="cv-image" /><span class="cv-text"><b><a
-								href="http://iem.ihu.gr/">Μηχανικών Αυτοματισμού T.E. - ΔΙΠΑΕ</a></b> <i>(Σεπ. 2018 -
-							Ιούν. 2023)</i>
-						<br />
-						Αποφοίτησε ως αριστούχος, με τον υψηλότερο μέσο όρο βαθμολογίας μεταξύ 63 φοιτητών για το
-						ακαδημαϊκό έτος 2022-2023.
-						<br />
-						<br />
-						* Εφαρμογή των επιστημονικών και τεχνολογικών μεθόδων σχεδιασμού, ανάπτυξης, κατασκευής και
-						λειτουργίας ηλεκτρικών, ηλεκτρονικών, υπολογιστικών, υδραυλικών και πνευματικών μηχανών, καθώς
-						και του αυτόματου ελέγχου τους, και σύνταξη ή επίβλεψη μελετών για έργα που αφορούν τα ανωτέρω.
-						<br />
-						* Εκτίμηση και επιμέτρηση έργων τα οποία ανήκουν σε συστήματα που περιέχουν στοιχεία αυτόματου
-						ελέγχου και πραγματογνωμοσύνες σε εγκαταστάσεις συστημάτων από τα ανωτέρω.
-						<br />
-						* Χρήση, προγραμματισμός, συντήρηση, ρύθμιση και προσαρμογή ηλεκτρονικών υπολογιστών,
-						μικροϋπολογιστών, μικροελεγκτών, PLC, CNC, ρομποτικών συσκευών και γενικού εξοπλισμού που
-						εφαρμόζει μεθόδους και αλγόριθμους αυτόματου ελέγχου.
-						<br />
-						<br />
-						Τίτλος πτυχιακής: Μετρήσεις σκέδασης με τον μικροϋπολογιστή Beaglebone για φορητούς οπτικούς
-						βιοϊατρικούς αισθητήρες
-						<br />
-						<a href="autom-ihu">[Περισσότερες πληροφορίες]</a>
-					</span>
+			<div class="right-column">
+				<br />
+				<div class="header">
+					<h3>Licences, Certifications, and Awards</h3>
+				</div>
+				<div id="text-licences">
+					<br />
+					<p class="base-flexbox cv" id="ymca">
+						<img src="../files/images/ymca.png" alt="YMCA" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://ymca.gr/" class="generic-link">Δίπλωμα Αρχηγού Χ.Α.Ν.Θ.</a></b> <i>(2016-)</i>
+							<br />
+							* Απονέμεται από τη ΧΑΝΘ για την επιτυχή ολοκλήρωση του τετραετούς εκπαιδευτικού προγράμματος της Σχολής Στελεχών. 
+						</span>
+					</p>
+					<p class="base-flexbox cv" id="cty">
+						<img src="../files/images/cty.png" alt="CTY" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://www.cty-greece.gr/" class="generic-link">Center for Talented Youth
+									(Greece) Talent Search
+									Award</a></b> <i>(2013-)</i>
+							<br />
+							* Απονέμεται από το Κολλέγιο Ανατόλια Θεσσαλονίκης εκ μέρους του «Center for Talented Youth» του Πανεπιστημίου Johns Hopkins, για υψηλή διάκριση στη λεκτική και ποσοτική ικανότητα και για το γεγονός ότι ήταν μεταξύ των συμμετεχόντων με την υψηλότερη βαθμολογία κατά τα ακαδημαϊκά έτη 2013-2015. 
+						</span>
+					</p>
+					<br />
+					<p class="base-flexbox cv" id="ecce">
+						<img src="../files/images/umich.png" alt="University of Michigan"
+							class="base-flexbox-image cv" /><span class="base-flexbox-text"><b><a
+									href="https://michiganassessment.org/" class="generic-link">Certificate of Competency in
+									English (ECCE)</a></b> <i>(2012-)</i>
+							<br />
+							* Εκδίδεται από το Πανεπιστήμιο του Michigan ως επίσημη πιστοποίηση της γνώσης της αγγλικής γλώσσας. 
+							<br />
+							<br />
+							Τα αγγλικά είναι ούτως ή άλλως η δεύτερη μητρική μου γλώσσα, οπότε αυτό το πιστοποιητικό διατίθεται κυρίως προς αποφυγή περιττής γραφειοκρατείας.
+						</span>
+					</p>
+				</div>
+				<br />
+				<div class="header">
+					<h3>Volunteering</h3>
+				</div>
+				<div id="text-volunteering">
+					<br />
+					<p class="base-flexbox cv" id="bpo">
+						<img src="../files/images/bpu.png" alt="Balkan Physical Union"
+							class="base-flexbox-image cv" /><span class="base-flexbox-text"><b><a
+									href="https://balkanphysicalunion.info/" class="generic-link">Τοπική Οργανωτική Επιτροπή - 1η Βαλκανική Ολυμπιάδα Φυσικής</a></b> <i>(Ιούλ. 2019)</i>
+							<br />
+							Παροχή οργανωτικής και κοινωνικής βοήθειας προς τη Βαλκανική Φυσική Ένωση και την Ένωση Ελλήνων Φυσικών για τη διοργάνωση της 1ης Βαλκανικής Ολυμπιάδας Φυσικής.
+						</span>
+					</p>
+					<br />
+					<br />
+					<p class="base-flexbox cv" id="mediator">
+						<img src="../files/images/coa-gr.png" alt="Hellenic Republic" class="base-flexbox-image cv" /><span
+							class="base-flexbox-text"><b><a href="https://srv-dide-v.thess.sch.gr/portal/" class="generic-link">Σχολικός Διαμεσολαβητής</a></b>
+							<br />
+							Συμμετοχή στην ομάδα σχολικής διαμεσολάβησης του λυκείου μου και παροχή υπηρεσιών διαμεσολάβησης τόσο σε μεμονωμένους μαθητές όσο και ομάδες μαθητών, με σκοπό την επίλυση των διαφορών τους.
+						</span>
+					</p>
+					<br />
+				</div>
+				<div class="header">
+					<h3 id="publications">Δημοσιεύματα</h3>
+				</div>
+				<br />
+				<h4 class="header med">Thesis</h4>
+				<div class="pubs-container">
+					<p class="hyphenate">* <a
+							href="http://microengineering.iem.ihu.gr/repo/2022MichailidouBantis.pdf" class="generic-link">Μετρήσεις σκέδασης με τον μικροϋπολογιστή Beaglebone για φορητούς οπτικούς βιοϊατρικούς αισθητήρες</a>, <i>Μ. Μιχαηλίδου, Α. Μπαντής (2022)</i></p>
+				</div>
+				<h4 class="header med">Proceedings papers</h4>
+				<div class="pubs-container">
+					<p class="hyphenate"> * <a
+							href="http://microengineering.iem.ihu.gr/WoMGREECE/2023_WOM_Proceedings_v3_Full.pdf" class="generic-link">
+							Further Evaluation and Calibration of a Mie Scattering-based Apparatus for Portable Optical
+							Haematological Analysis</a>, <i>A. Bantis, M. Michailidou, and A. Dziuba (23WOM-10)</i></p>
+					<br />
+					<p class="hyphenate">* <a
+							href="http://www.microengineering.teithe.gr/WoMGREECE2021/2021_WOM_Proceedings.pdf" class="generic-link">Fabrication
+							and
+							Development of an Optical Biomedical Sensor</a>, <i>A. Bantis, M. Michailidou, E. Gkagkanis,
+							K.
+							Karakostas, and M. E. Kiziroglou (21WOM-05)</i></p>
+					<br />
+					<p class="hyphenate">* <a
+							href="http://www.microengineering.teithe.gr/WoMGREECE2020/2020_WOM_Proceedings.pdf" class="generic-link">From
+							Microtechnology to Nanotechnology</a>, <i>D. Bagdatoglou, N. Balp, A. Bantis, R. Beal, Y.
+							Carmichael, C.
+							I. Danaskou, K. Georgiadis, M. Michailidou, A. Nikolopoulos, S. Ntemkas, D. Parastatidou, V.
+							Petitjean,
+							H. Schaefer, and N. Traikoudis (20WOM-04)</i></p>
+				</div>
+				<br />
+				<div id="languages-skills" class="header">
+					<h3>Γλώσσες</h3>
+				</div>
+				<div class="center-flex">
+					<table class="language-table">
+						<tr>
+							<td class="hyphenate">Ελληνικά</td>
+							<td>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+							</td>
+							<td>(Μητρική)</td>
+						</tr>
+						<tr>
+							<td>Αγγλικά</td>
+							<td>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+							</td>
+							<td>(Μητρική)</td>
+						</tr>
+						<tr>
+							<td>Πολωνικά</td>
+							<td>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="unfilled-circle">◯</span>
+								<span class="unfilled-circle">◯</span>
+								<span class="unfilled-circle">◯</span>
+							</td>
+							<td>(A2)</td>
+						</tr>
+						<tr>
+							<td>Γαλλικά</td>
+							<td>
+								<span class="filled-circle">●</span>
+								<span class="filled-circle">●</span>
+								<span class="unfilled-circle">◯</span>
+								<span class="unfilled-circle">◯</span>
+								<span class="unfilled-circle">◯</span>
+							</td>
+							<td>(A2)</td>
+						</tr>
+					</table>
+				</div>
+				<br />
+				<div class="header">
+					<h3>Δεξιότητες</h3>
+				</div>
+				<br />
+				<div class="center"> <img src="../files/images/c.png" alt="C" /> <img src="../files/images/cplusplus.png"
+						alt="C++" /> <img src="../files/images/python.png" alt="Python" /> <img
+						src="../files/images/assembly.png" alt="Assembly" /> <img src="../files/images/ruby.png" alt="Ruby" />
+					<img src="../files/images/bash.png" alt="Bash" /> <img src="../files/images/php.png" alt="PHP" />
+					<img src="../files/images/octave.png" alt="Octave" /> <img src="../files/images/qb64.png" alt="BASIC" />
+					<img src="../files/images/ansible.png" alt="Ansible" />
+					<img src="../files/images/mysql.png" alt="MySQL" /> <img src="../files/images/postgres.png"
+						alt="Postgres" /> <img src="../files/images/docker.png" alt="Docker" />
+					<img src="../files/images/k8s.png" alt="Kubernetes" />
+					<img src="../files/images/azure.png" alt="Azure" /> <img src="../files/images/elastic.png"
+						alt="Elastic" /> <img src="../files/images/GitHub.png" alt="GitHub" />
+					<img src="../files/images/ros.png" alt="ROS" /> <img src="../files/images/gnu-linux.png"
+						alt="GNU/Linux" /> <img src="../files/images/windows.png" alt="Windows Server" height="60"
+						width="55" />
+					<img src="../files/images/vmware.png" alt="VMware" /> <img src="../files/images/arduino.png"
+						alt="Arduino" /> <img src="../files/images/raspberrypi.png" alt="Raspberry Pi" /> <img
+						src="../files/images/jira.png" alt="Jira" /> <img src="../files/images/tex.png" alt="Latex" />
+					<img src="../files/images/autocad.png" alt="AutoCAD" /> <img src="../files/images/SolidWorks.png"
+						alt="SolidWorks" />
+				</div>
+				<!--
+					<br />
+				<p class="center">GNU/Linux, Windows Server, Docker, Kubernetes, Apache2, NGINX, IIS, HAProxy, Postfix,
+					Exim4, Dovecot, BIND9, MySQL, PostgreSQL, MS-SQL, MongoDB, ElasticSearch, ClamAV, Grafana,
+					Prometheus,
+					InfluxDB, Zabbix, Graylog, Active Directory, LDAP, Hyper-V, VMWare, Veeam, S3, Hosting Panels, 3CX
+				</p>-->
+				<br />
+				<p class="center">Διαχείριση συστημάτων, DevOps, Cloud, Αυτοματισμός, Κυβερνοασφάλεια, Δίκτυα,
+					Προγραμματισμός, Βάσεις Δεδομένων, IT Operations, Ενσωματωμένη Μηχανική, Ηλεκτρονικά, Project Management,
+					Συστήματα Αυτομάτου ΕΛέγχου, CAD/CAM/CAE</p>
+				<br />
+				<p class="center">Εργατικότητα, Ομαδικότητα, Περιέργεια, Γραπτή Επικοινωνία, Υπευθυνότητα, Επίλυση Προβλημάτων, Δημιουργικότητα, Multitasking
 				</p>
+				<br />
 			</div>
-			<br />
-			<h2>Licenses, Certifications, and Awards</h2>
-			<div class="outline-text-2" id="text-licenses">
-				<p class="cv-paragraph" id="3cx">
-					<img src="../files/images/3cx-cert.png" alt="3CX Advanced" class="cv-image" /><span
-						class="cv-text"><b><a href="https://ymca.gr/">Πιστοποίηση 3CX Advanced</a></b> <i>(2023-)</i>
-						<br />
-						* Απονέμεται από την Ακαδημία 3CX για την επιτυχή ολοκλήρωση των μαθημάτων Basic, Intermediate
-						και Advanced 3CX και για την εγκατάσταση ενός πλήρως λειτουργικού τηλεφωνικού κέντρου 3CX.
-					</span>
-				</p>
-				<br />
-				<p class="cv-paragraph" id="ymca">
-					<img src="../files/images/ymca.png" alt="YMCA" class="cv-image" /><span class="cv-text"><b><a
-								href="https://ymca.gr/">Δίπλωμα Αρχηγού Χ.Α.Ν.Θ.</a></b> <i>(2016-)</i>
-						<br />
-						* Απονέμεται από τη ΧΑΝΘ για την επιτυχή ολοκλήρωση του τετραετούς εκπαιδευτικού προγράμματος
-						της Σχολής Στελεχών.
-					</span>
-				</p>
-				<br />
-				<p class="cv-paragraph" id="cty">
-					<img src="../files/images/cty.png" alt="CTY" class="cv-image" /><span class="cv-text"><b><a
-								href="https://www.cty-greece.gr/">CTY Greece Talent Search Award</a></b> <i>(2013-)</i>
-						<br />
-						* Απονέμεται από το Κολλέγιο Ανατόλια Θεσσαλονίκης εκ μέρους του «Center for Talented Youth» του
-						Πανεπιστημίου Johns Hopkins, για υψηλή διάκριση στη λεκτική και ποσοτική ικανότητα και για το
-						γεγονός ότι ήταν μεταξύ των συμμετεχόντων με την υψηλότερη βαθμολογία κατά τα ακαδημαϊκά έτη
-						2013-2015.
-					</span>
-				</p>
-				<br />
-				<p class="cv-paragraph" id="ecce">
-					<img src="../files/images/umich.svg" alt="University of Michigan" class="cv-image" /><span
-						class="cv-text"><b><a href="https://michiganassessment.org/">Certificate of Competency in
-								English (ECCE)</a></b> <i>(2012-)</i>
-						<br />
-						* Εκδίδεται από το Πανεπιστήμιο του Michigan ως επίσημη πιστοποίηση της γνώσης της αγγλικής
-						γλώσσας.
-						<br />
-						<br />
-						Τα αγγλικά είναι ούτως ή άλλως η δεύτερη μητρική μου γλώσσα, οπότε αυτό το πιστοποιητικό
-						διατίθεται κυρίως για να αποφύγω τη γραφειοκρατία
-					</span>
-				</p>
-			</div>
-			<br />
-			<h2>Volunteering</h2>
-			<div class="outline-text-2" id="text-volunteering">
-				<p class="cv-paragraph" id="bpo">
-					<img src="../files/images/bpu.png" alt="Balkan Physical Union" class="cv-image" /><span
-						class="cv-text"><b><a href="https://balkanphysicalunion.info/">Τοπική Οργανωτική Επιτροπή - 1η
-								Βαλκανική Ολυμπιάδα Φυσικής</a></b> <i>(Ιούλ. 2019)</i>
-						<br />
-						Παροχή οργανωτικής και κοινωνικής βοήθειας προς τη Βαλκανική Φυσική Ένωση και την Ένωση Ελλήνων
-						Φυσικών για τη διοργάνωση της 1ης Βαλκανικής Ολυμπιάδας Φυσικής
-					</span>
-				</p>
-				<br />
-				<p class="cv-paragraph" id="mediator">
-					<img src="../files/images/coa-gr.png" alt="Hellenic Republic" class="cv-image" /><span
-						class="cv-text"><b><a href="https://srv-dide-v.thess.sch.gr/portal/">Σχολικός
-								Διαμεσολαβητής</a></b>
-						<br />
-						Συμμετοχή στην ομάδα σχολικής διαμεσολάβησης του λυκείου μου και παροχή υπηρεσιών διαμεσολάβησης
-						τόσο σε μεμονωμένους μαθητές όσο και ομάδες μαθητών, με σκοπό την επίλυση των διαφορών τους
-					</span>
-				</p>
-			</div>
-			<h2 id="publications">Δημοσιεύματα</h2>
-			<h3>Πτυχιακή</h3>
-			* <p class="center">* <a href="http://microengineering.iem.ihu.gr/repo/2022MichailidouBantis.pdf">Μετρήσεις
-					σκέδασης με τον μικροϋπολογιστή Beaglebone για φορητούς οπτικούς βιοϊατρικούς αισθητήρες</a>, <i>Μ.
-					Μιχαηλίδου, Α. Μπαντής (2022)</i></p>
-			<h3>Proceedings</h3>
-			<p class="center">* <a
-					href="http://www.microengineering.teithe.gr/WoMGREECE2021/2021_WOM_Proceedings.pdf">Fabrication and
-					Development of an Optical Biomedical Sensor</a>, <i>A. Bantis, M. Michailidou, E. Gkagkanis, K.
-					Karakostas and M. E. Kiziroglou (21WOM-05)</i></p>
-			<br />
-			<p class="center">* <a
-					href="http://www.microengineering.teithe.gr/WoMGREECE2020/2020_WOM_Proceedings.pdf">From
-					Microtechnology to Nanotechnology</a>, <i>D. Bagdatoglou, N. Balp, A. Bantis, R. Beal, Y.
-					Carmichael, C.
-					I. Danaskou, K. Georgiadis, M. Michailidou, A. Nikolopoulos, S. Ntemkas, D. Parastatidou, V.
-					Petitjean,
-					H. Schaefer and N. Traikoudis (20WOM-04)</i></p>
-			<br />
-			<br />
-			<h2>Γλώσσες</h2>
-			* Ελληνικά (Μητρική)
-			<br />
-			* Αγγλικά (Μητρική)
-			<br />
-			* Πολωνικά (A2)
-			<br />
-			* Γαλλικά (A2)
-			<br />
-			<br />
-			<h2>Δεξιότητες</h2>
-			<p class="center">C, C++, Python, BASH, Ruby, Ansible, PHP, SQL, Γλώσσες PLC (LD, FBD, ST), BASIC, AVR Assembly, ARM Assembly,
-				HTML/CSS, LaTeX, ROS, AutoCAD, Solidworks</p>
-			<br />
-			<p class="center">GNU/Linux, Windows Server, Docker, Kubernetes, Apache2, NGINX, IIS, HAProxy, Postfix,
-				Exim4, Dovecot, BIND9, MySQL, PostgreSQL, MS-SQL, MongoDB, ElasticSearch, ClamAV, Grafana, Prometheus,
-				InfluxDB, Zabbix, Graylog, Active Directory, LDAP, Hyper-V, VMWare, Veeam, S3, Hosting Panels, 3CX</p>
-			<br />
-			<p class="center">Διαχείριση συστημάτων, Κυβερνοασφάλεια, Διασφάλιση Ποιότητας, Ενσωματωμένη Μηχανική,
-				Ηλεκτρολογική Μηχανική, IT Operations, Δίκτυα, Προγραμματισμός, Βάσεις Δεδομένων, DevOps, Ηλεκτρονική,
-				Αυτόνομα Οχήματα, Σχεδιασμός με τη Βοήθεια Υπολογιστών, Αυτοματισμός, Συστήματα Ελέγχου, Μικροσυστήματα,
-				Διοίκηση Έργων</p>
-			<br />
-			<p class="center">Εργατικότητα, Ομαδική Εργασία, Περιέργεια, Γραπτή Επικοινωνία, Υπευθυνότητα, Επίλυση
-				Προβλημάτων,
-				Δημιουργικότητα, Multitasking</p>
-			<br />
-
-
-
-			<p class="center">
-				Ενημερώθηκε: 2023-07-10
-			</p>
-
-			<br />
-			<p class="footer">Πρότυπο: getimiskon. Επεξεργασία: bandisast.</p>
 		</div>
+
+
+		<p class="center">
+			Latest update: 2024-01-27
+		</p>
+
+		<br />
+		<p class="footer">Φτιαγμένο με <a href="https://love.holllo.cc/" class="generic-link">Αγάπη</a> από: bandisast</p>
 	</div>
 </body>
 
