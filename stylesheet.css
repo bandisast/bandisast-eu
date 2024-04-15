@@ -259,7 +259,11 @@ p {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: flex-start;
-}
+  }
+
+  .category-shortcut a {
+	margin-bottom: 0.5rem;
+  }
 
 /* ==========================================================================
    Base styles: Main Content
@@ -626,8 +630,8 @@ th {
 	  }
 
 	.category-shortcut a {
-        margin-left: 4px; 
-		margin-right: 4px;
+        margin: 8px;
+
 	}
 	/* ==========================================================================
        Alternate styles: Main Content
