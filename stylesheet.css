@@ -116,6 +116,24 @@
         80% { color: var(--accent-lavender); }
         100% { color: var(--accent-pink); }
     }
+
+
+	@keyframes hue-animation {
+		0% { filter: hue-rotate(0deg)}
+		8.33% { filter: hue-rotate(30deg) }
+		16.67% { filter: hue-rotate(60deg) }
+		25% { filter: hue-rotate(90deg)  }
+		33.33% { filter: hue-rotate(120deg) }
+		41.67% { filter: hue-rotate(150deg) }
+		50% { filter: hue-rotate(180deg)  }
+		58.33% { filter: hue-rotate(210deg)  }
+		66.67% { filter: hue-rotate(240deg) }
+		75% { filter: hue-rotate(270deg)  }
+		83.33% { filter: hue-rotate(300deg)  }
+		91.67% { filter: hue-rotate(330deg)  }
+		100% { filter: hue-rotate(360deg) }
+	  }
+	  
 /* ==========================================================================
    Base styles: Colours
    ========================================================================== */
@@ -287,6 +305,10 @@ p {
 .generic-link:hover, .generic-link:focus {
 	font-size: 16pt; 
 	transition: font-size 0.2s; 
+  }
+
+  .error-teapot {
+	animation: hue-animation 10s infinite linear;
   }
 
 .center {
