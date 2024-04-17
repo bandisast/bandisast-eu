@@ -1,2 +1,4 @@
 el/stylesheet.css linguist-vendored
 pl/stylesheet.css linguist-vendored
+*.xml linguist-detectable=true
+*.xhtml linguist-language=XML
