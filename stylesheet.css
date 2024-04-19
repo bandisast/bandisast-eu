@@ -667,24 +667,25 @@ th {
 		  }
 		
 		  .base-flexbox-image {
-			max-width: 90%; 
+			max-width: 90%;
 		  }
 
 		  .base-flexbox.index {
 			width: 95%;
 			padding: 0;
+			gap: 30px;
 		  }
 		
 		.base-flexbox-image.index {
 			margin-left: 0;
 			margin-right: 0;
-			margin-bottom: 20px;
+			margin-top: 20px;
 		  }
 		
 		.base-flexbox-text.index {
 			margin-left: 0;
 			margin-right: 0;
-			margin-top: 15px;
+			margin-bottom: 20px;
 		  }
 
 		  .cv-container {
