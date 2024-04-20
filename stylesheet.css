@@ -20,7 +20,9 @@
 	--gray-1: #E2E2E2;
 	--gray-2: #C6C6C6;
 	--gray-3: #ABABAB;
-
+	overflow-x: hidden;
+	background-color: var(--background-secondary);
+}
 	/* Reset some default styles */
 	body,
 	h1,
@@ -41,9 +43,6 @@
 		margin: 0;
 		padding: 0;
 	}
-	overflow-x: hidden;
-	background-color: var(--background-secondary);
-}
 
 /* ==========================================================================
    Imports: Fonts
@@ -330,7 +329,7 @@ p {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	padding: 30px;
+	/*padding: 30px;*/
 	border: 1px;
 	border-style: hidden hidden solid;
 	border-color: var(--foreground-secondary);
@@ -357,6 +356,7 @@ p {
 	max-width: 50%;
 	height: auto;
 	align-self: center;
+	aspect-ratio: 1;
   }
   
 .base-flexbox-text {
@@ -718,10 +718,6 @@ th {
 		  .my-contributions {
 			flex-basis: 100%;
 			padding: 0px;
-		  }
-
-		  .mobile-center {
-			text-align: center;
 		  }
 }
 
