@@ -416,6 +416,20 @@ p {
 	padding-right: 2%;
   }
 
+  .skill {
+    text-decoration: none;
+    background-color: var(--foreground-secondary);
+	color: var(--background-secondary);
+    margin-top: 0.35em;
+	margin-bottom: 0.35em;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+    padding: 0.15em;
+	font-family: 'Jetbrains Mono Regular', monospace;
+	font-size: 0.9em;
+	border-radius: 2px;
+	display: inline-block;
+}
   /* ==========================================================================
    Base styles: Tables
    ========================================================================== */
