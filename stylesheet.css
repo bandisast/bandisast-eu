@@ -408,8 +408,7 @@ p {
   }
 
   .base-flexbox.cv {
-	border: 0;
-	
+	border: 0px
   }
 
   .base-flexbox-image.cv {
@@ -418,8 +417,8 @@ p {
 
   .skill {
     text-decoration: none;
-    background-color: var(--foreground-secondary);
-	color: var(--background-secondary);
+    background-color: var(--foreground-primary);
+	color: var(--background-primary);
     margin-top: 0.35em;
 	margin-bottom: 0.35em;
 	margin-left: 0.25em;
